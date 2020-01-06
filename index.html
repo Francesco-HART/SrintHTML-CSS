@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 
     <meta charset="utf-8">
@@ -18,108 +18,111 @@
     </nav>
 </header>
 
+    <section>
+
+        <label for="date">Date : </label><input type="date" id="date"> <label for="event">Évenement </label> <input type="text" id="event">
+
+    </section>
 
 	<section>
 
-        <article> 
+        <article>
+
+            <h2>Votre 1er choix de formation à ITESCIA :</h2>
             
-            <h2> GESTION </h2>
+            <h3> GESTION </h3>
 
-            <h3>BAC +2 </h3>
-            <label for="degreename">BTS CG</label>
-            <input type="checkbox" name="degree">
+            <h4>BAC +2 </h4>
+            <input type="checkbox" name="btsCG" id="btsCG">
+            <label for="btsCG">BTS CG</label>
 
-            <h3>BAC +3</h3>
-            <label for="degreename"> DCG - Entrée en L1 </label>
-            <input type="checkbox" name="degree">
+            <h4>BAC +3</h4>
+            <p>DCG</p>
+            <input type="checkbox" name="dcgL1" id="dcgL1">
+            <label for="dcgL1"> Entrée en L1 </label>
 
-            <label for="degreename"> DCG - Entrée en L2</label>
-            <input type="checkbox" name="degree">
+            <input type="checkbox" name="dcgL2" id="dcgL2">
+            <label for="dcgL2"> Entrée en L2</label>
 
-            <h3>BAC +4</h3>
-            <label for="degreename"> Contrôleur de gestion - Entrée en L3 </label>
-            <input type="checkbox" name="degree">
+            <h4>BAC +4</h4>
+            <p>Controleur de gestion</p>
+            <input type="checkbox" name="cgL3" id="cgL3">
+            <label for="cgL3"> Entrée en L3 </label>
 
-            <label for="degreename"> Contrôleur de gestion - Entrée en M1 </label>
-            <input type="checkbox" name="degree">
+            <input type="checkbox" name="cgM1" id="cgM1">
+            <label for="cgM1"> Entrée en M1 </label>
 
-            <h3>BAC +5 </h3>
-            <label for="degreename">DSCG - entrée en M1</label>
-            <input type="checkbox" name="degree">
+            <h4>BAC +5 </h4>
+            <input type="checkbox" name="DSCG" id="DSCG">
+            <label for="DSCG">DSCG (Entrée en M1)</label>
 
-            <h2> MANAGEMENT </h2>
+            <h3> MANAGEMENT </h3>
             
-            <h3>BAC +4 </h3>
-            <label for="degreename">Responsable de systèmes de management QHSE - entrée en L3</label>
-            <input type="checkbox" name="degree">
+            <h4>BAC +4 </h4>
+            <p>Responsable de systèmes de management QHSE</p>
+            <input type="checkbox" name="qhleL3" id="qhleL3">
+            <label for="qhleL3">Entrée en L3</label>
 
-            <label for="degreename">Responsable de systèmes de management QHSE - entrée en M1</label>
-            <input type="checkbox" name="degree">
+            <input type="checkbox" name="qhleM1" id="qhleM1">
+            <label for="qhleM1">Entrée en M1</label>
 
-            <label for="degreename">Responsable Ressources Humaines - entrée en M1</label>
-            <input type="checkbox" name="degree">
+            <p>Responsable Ressources Humaines</p>
+            <input type="checkbox" name="rhL3" id="rhL3">
+            <label for="rhL3"> - Entrée en L3</label>
 
-            <label for="degreename">Responsable Ressources Humaines - entrée en M1</label>
-            <input type="checkbox" name="degree">
+            <input type="checkbox" name="rhM1" id="rhM1">
+            <label for="rhM1">Entrée en M1</label>
 
-            <h3>BAC +5</h3>
+            <h4>BAC +5</h4>
 
-            <label for="degreename">Manager Qualité et Processus Intelligents - entrée en M2</label>
-            <input type="checkbox" name="degree">
+            <label for="mqpi">Manager Qualité et Processus Intelligents (entrée en M2)</label>
+            <input type="checkbox" name="mqpi" id="mqpi">
 
         </article>
 
         <br>
 
-		<article> Informatique : </article>
+		<p>
 
-		<h3> BAC+2 : </h3>
+            <h3>INFORMATIQUE</h3>
 
-		<p><input type="checkbox" name="">BTSSIO, option SISR ou SLAM</p>
-		
+		<h4> BAC+2 : </h4>
+
+            <p>
+            <input type="checkbox" name="btssio" id="btssio">
+            <label for="btssio">BTSSIO, option SISR ou SLAM</label> <br/>
+            </p>
+
+            <p>
+            <input type="checkbox" name="codeur" id="codeur">
+            <label for="codeur">Codeur informatique</label>
+
 		<table>
-			<thead>
-				<th><input type="checkbox" name="">Codeur informatique :</th>
-				<th></th>
-				<th></th>
-			</thead>
 			<tbody>
 				<tr>
 					<td>En 2 ans en alternance</td>
-					<td><input type="checkbox" name="">à Cergy</td>
-					<td><input type="checkbox" name="">à Paris</td>
+					<td><input type="checkbox" name="ciAltCergy" id="ciAltCergy"> <label for="ciAltCergy">à Cergy</label></td>
+					<td><input type="checkbox" name="ciAltParis" id="ciAltParis"> <label for="ciAltParis">à Paris</label></td>
 				</tr>
 				<tr>
 					<td>En 1 an en temps plein (payant)</td>
-					<td><input type="checkbox" name="">à Cergy</td>
-					<td><input type="checkbox" name="">à Paris</td>
+					<td><input type="checkbox" name="ciTpCergy" id="ciTpCergy"> <label for="ciTpCergy">à Cergy</label></td>
+					<td><input type="checkbox" name="ciTpParis" id="ciTpParis"> <label for="ciTpParis">à Paris</label></td>
 				</tr>
 			</tbody>
 		</table>
+        </p>
 		
-		<h3> BAC+3 (en 1 an) : </h3>
+		<h4> BAC+3 (en 1 an) : </h4>
 
-		<p><input type="checkbox" name="">Licence d’Informatique générale</p>
-	   
+		<p><input type="checkbox" name="license" id="license"> <label for="license">Licence d’Informatique générale</label> </p>
 
-		<table>
-			<thead>
-				<th><input type="checkbox" name="">Concepteur développeur de solution mobiles et connectées</th>
-				<th></th>
-			</thead>
-			<tbody>
-				<tr>
-					<td><input type="checkbox" name="">En alternance</td>
-					<td><input type="checkbox" name="">à Cergy</td>	
-				</tr>
-				<tr>
-					<td><input type="checkbox" name="">En temps plein (payant)</td>
-					<td><input type="checkbox" name="">à Paris</td>	
-				</tr>
-			</tbody>		
-		</table>
+        <p><input type="checkbox" name="cdsmc" id="cdsmc"> <label for="cdsmc">Concepteur développeur de solution mobiles et connectées</label> <br/>
+        <input type="checkbox" name="cdsmcAlt" id="cdsmcAlt"> <label for="cdsmcAlt">En alternance à Cergy</label></td>
+		<input type="checkbox" name="cdsmcTP" id="cdsmcTP"> <label for="cdsmcTP">En temps plein à Paris (payant)</label> </td>
+        </p>
 
-		<h3> BAC+5 : </h3>		
+		<h4> BAC+5 : </h4>
 
 		<p>Manager en Ingénierie Informatique</p>
 
@@ -130,62 +133,64 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td><input type="checkbox" name="">entrée en L3</td>
+					<td><input type="checkbox" name="" id="MIIl3"> <label for="MIIl3">Entrée en L3</label></td>
 					<td></td>
 				</tr>
 				<tr>
-					<td><input type="checkbox" name="">entrée en M1, spécialisation :</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td><input type="checkbox" name="">MSc Cybersécurité</td>
-				</tr>
-				<tr>
-					<td></td>
-					<td><input type="checkbox" name="">MSc Réseaux & Systèmes</td>
-				</tr>
-				<tr>
-					<td></td>
-					<td><input type="checkbox" name="">MSc Big data & Cloud</td>
-				</tr>
-				<tr>
-					<td></td>
-					<td><input type="checkbox" name="">MSc Gaming & Smart Tech</td>
-				</tr>
-				<tr>
-					<td></td>
-					<td><input type="checkbox" name="">MSc Management des SI & Digitalisation</td>
-				</tr>
-				<tr>
-					<td></td>
-					<td><input type="checkbox" name="">Ingénierie Logiciels et Systèmes</td>
-				</tr>
-				<tr>
-					<td></td>
-					<td><input type="checkbox" name="">Intelligence Artificielle et Applications</td>
-				</tr>
-				<tr>
-					<td><input type="checkbox" name="">entrée en M2, spécialisation :</td>
+					<td><input type="checkbox" name="" id="MIIM1"> <label for="MIIM1">Entrée en M1, spécialisation : </label> </td>
 					<td></td>
 				</tr>
 				<tr>
 					<td></td>
-					<td><input type="checkbox" name="">MSc Entrepreneuriat & IT</td>
+					<td><input type="checkbox" name="" id="MSCcyber"> <label for="MSCcyber">MSc Cybersécurité</label> </td>
 				</tr>
 				<tr>
 					<td></td>
-					<td><input type="checkbox" name="">MSc International Business for ITBusinessAnalyste (M1 + M2)</td>
+					<td><input type="checkbox" name="" id="MSCnetworkSystem"> <label for="MSCnetworkSystem">MSc Réseaux & Systèmes</label></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="checkbox" name="" id="MSCbigDataCloud"> <label for="MSCbigDataCloud">MSc Big data & Cloud</label> </td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="checkbox" name="" id="MSCgaming"> <label for="MSCgaming">MSc Gaming & Smart Tech</label> </td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="checkbox" name="" id="MSCmanageSI"> <label for="MSCmanageSI">MSc Management des SI & Digitalisation</label> </td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="checkbox" name="" id="ingeLogSyst"> <label for="ingeLogSyst">Ingénierie Logiciels et Systèmes</label> </td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="checkbox" name="" id="AIapp"> <label for="AIapp">Intelligence Artificielle et Applications</label> </td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="" id="M2"> <label for="M2">Entrée en M2, spécialisation : </label> </td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="checkbox" name="" id="MSCit"> <label for="MSCit">MSc Entrepreneuriat & IT</label> </td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="checkbox" name="" id="MSCinternationalbusiness"> <label for="MSCinternationalbusiness">MSc International Business for ITBusinessAnalyste (M1 + M2)</label> </td>
 				</tr>
 			</tbody>
 		</table> 
 		
 		<p>BusinessAnalyste (M1 + M2)</p>
 
-		<input type="checkbox" name="">Performance et systèmes d’information
+		<input type="checkbox" name="" id="PerfSysyInfo"> <label for="PerfSysyInfo">Performance et systèmes d’information</label>
 		<br>
-		<input type="checkbox" name="">Digitisation RH
-		
+		<input type="checkbox" name="" id="digitalisation"> <label for="digitalisation">Digitisation RH</label>
+
+        </article>
+
 	</section>
 
 	<section>
@@ -244,8 +249,6 @@
     </section>
 
     <section>
-        <h2>Votre Salaire</h2>
-        <br>
 
         <h2>Votre Scolarité :</h2>
 
