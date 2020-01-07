@@ -1,0 +1,27 @@
+
+/* affichage des 2 pages flex */
+
+.pagegauche {
+	text-align: left;
+	padding: 10px;
+	background-color: #D3D3D3;
+	width: 650px;
+	border-radius: 10px ;
+	margin-right: 100px;
+}
+
+.pagedroite {
+	text-align: left;
+	padding: 10px;
+	background-color: #D3D3D3;
+	width: 650px;
+	border-radius: 10px ;
+}
+
+.pages {
+	display: flex;
+}
+
+h2 {
+	color: red;
+}
