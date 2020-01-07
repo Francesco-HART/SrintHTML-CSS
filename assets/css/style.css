@@ -33,14 +33,20 @@ footer h6{
     background-size: cover;
     width: 100%;
     height: 825px;
+    display: flex;
+    justify-content: space-between;
 } 
 
+
+nav {
+    flex-direction: row;
+    justify-content: flex-end;
+}
 .logo {
     text-align: center;
     height: 111px;
     width: 357px;
     position: relative;
-    float: left;
 }
 
 .landingcontent {
@@ -49,19 +55,16 @@ footer h6{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-}
-.landingcontent:hover{
-    color: #90323D;
+    width: 50%;
+    height: 50%;
 }
 
-.landingcontent .text {
+.landingcontent h1 {
     color: white;
     font-weight: bold;
     border: 30px;
-    font-size: 50px;
     font-family: 'Titillium Web', sans-serif;
     margin:0; 
-
 }
 
 .button {
@@ -109,7 +112,6 @@ footer h6{
         /* ---------- NAVBAR ---------- */
 
 header nav {
-    float: right;
     padding: 20px;
 }
 
