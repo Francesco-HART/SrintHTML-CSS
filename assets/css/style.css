@@ -235,6 +235,10 @@ h3 {
 
 }
 
+.transitionImage{
+    width:100%;
+}
+
 #containImg li {
     text-decoration: none;
     height: 25px;
