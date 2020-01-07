@@ -175,8 +175,7 @@ li a:hover {
 	background-color: #C0C0C0;
 	width: 655px;
 	border-radius: 10px;
-	margin-left: 10px;
-	margin-right: 70px;
+	margin-left: 20px;
 	margin-bottom: 30px;
 
 	box-shadow:16px 16px 16px gray,
@@ -189,7 +188,7 @@ li a:hover {
 	background-color: #C0C0C0;
 	width: 660px;
 	border-radius: 10px;
-	margin-right: 10px;
+	margin-right: 20px;
 	margin-bottom: 30px;
 
 	box-shadow:16px 16px 16px gray,
@@ -199,6 +198,8 @@ li a:hover {
 
 .pages {
 	display: flex;
+	justify-content: space-between;
+	flex-basis: 40%;
 }
 
 /* position du date event */
