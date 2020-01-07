@@ -8,6 +8,12 @@
     
 </head>
 
+	    <meta charset="utf-8">
+	    <link rel="stylesheet" href="assets/css/style.css" />
+	    <title> Formulaire de contact - ITESCIA </title>
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap');
+		</style>
 	<body>
 
 	<header class="header"> 
@@ -35,7 +41,8 @@
 
 	    <section class="dateEvent">
 
-	        <label for="date">Date : </label><input type="date" id="date"> <label for="event">Évenement </label> <input type="text" id="event">
+	        <label for="date">Date : </label><input type="date" id="date">
+			<label for="event">Évenement </label> <input type="text" id="event">
 
 	    </section>
 
@@ -51,50 +58,50 @@
 	            <h3> GESTION </h3>
 
 	            <h4>BAC +2 </h4>
-	            <input type="checkbox" name="btsCG" id="btsCG">
+	            <input type="radio" name="firstchoice" id="btsCG">
 	            <label for="btsCG">BTS CG</label>
 
 	            <h4>BAC +3</h4>
 	            <p>DCG</p>
-	            <input type="checkbox" name="dcgL1" id="dcgL1">
+	            <input type="radio" name="firstchoice" id="dcgL1">
 	            <label for="dcgL1"> Entrée en L1 </label>
 
-	            <input type="checkbox" name="dcgL2" id="dcgL2">
+	            <input type="radio" name="firstchoice" id="dcgL2">
 	            <label for="dcgL2"> Entrée en L2</label>
 
 	            <h4>BAC +4</h4>
 	            <p>Controleur de gestion</p>
-	            <input type="checkbox" name="cgL3" id="cgL3">
+	            <input type="radio" name="firstchoice" id="cgL3">
 	            <label for="cgL3"> Entrée en L3 </label>
 
-	            <input type="checkbox" name="cgM1" id="cgM1">
+	            <input type="radio" name="firstchoice" id="cgM1">
 	            <label for="cgM1"> Entrée en M1 </label>
 
 	            <h4>BAC +5 </h4>
-	            <input type="checkbox" name="DSCG" id="DSCG">
+	            <input type="radio" name="firstchoice" id="DSCG">
 	            <label for="DSCG">DSCG (Entrée en M1)</label>
 
 	            <h3> MANAGEMENT </h3>
 	            
 	            <h4>BAC +4 </h4>
 	            <p>Responsable de systèmes de management QHSE</p>
-	            <input type="checkbox" name="qhleL3" id="qhleL3">
+	            <input type="radio" name="firstchoice" id="qhleL3">
 	            <label for="qhleL3">Entrée en L3</label>
 
-	            <input type="checkbox" name="qhleM1" id="qhleM1">
+	            <input type="radio" name="firstchoice" id="qhleM1">
 	            <label for="qhleM1">Entrée en M1</label>
 
 	            <p>Responsable Ressources Humaines</p>
-	            <input type="checkbox" name="rhL3" id="rhL3">
+	            <input type="radio" name="firstchoice" id="rhL3">
 	            <label for="rhL3"> - Entrée en L3</label>
 
-	            <input type="checkbox" name="rhM1" id="rhM1">
+	            <input type="radio" name="firstchoice" id="rhM1">
 	            <label for="rhM1">Entrée en M1</label>
 
 	            <h4>BAC +5</h4>
 
 	            <label for="mqpi">Manager Qualité et Processus Intelligents (entrée en M2)</label>
-	            <input type="checkbox" name="mqpi" id="mqpi">
+	            <input type="radio" name="firstchoice" id="mqpi">
 
 	        </article>
 
@@ -107,25 +114,25 @@
 			<h4> BAC+2 : </h4>
 
 	            <p>
-	            <input type="checkbox" name="btssio" id="btssio">
+	            <input type="radio" name="firstchoice" id="btssio">
 	            <label for="btssio">BTSSIO, option SISR ou SLAM</label> <br/>
 	            </p>
 
 	            <p>
-	            <input type="checkbox" name="codeur" id="codeur">
+	            <input type="radio" name="firstchoice" id="codeur">
 	            <label for="codeur">Codeur informatique</label>
 
 			<table>
 				<tbody>
 					<tr>
 						<td>En 2 ans en alternance</td>
-						<td><input type="checkbox" name="ciAltCergy" id="ciAltCergy"> <label for="ciAltCergy">à Cergy</label></td>
-						<td><input type="checkbox" name="ciAltParis" id="ciAltParis"> <label for="ciAltParis">à Paris</label></td>
+						<td><input type="radio" name="codeur" id="ciAltCergy"> <label for="ciAltCergy">à Cergy</label></td>
+						<td><input type="radio" name="codeur" id="ciAltParis"> <label for="ciAltParis">à Paris</label></td>
 					</tr>
 					<tr>
 						<td>En 1 an en temps plein (payant)</td>
-						<td><input type="checkbox" name="ciTpCergy" id="ciTpCergy"> <label for="ciTpCergy">à Cergy</label></td>
-						<td><input type="checkbox" name="ciTpParis" id="ciTpParis"> <label for="ciTpParis">à Paris</label></td>
+						<td><input type="radio" name="codeur" id="ciTpCergy"> <label for="ciTpCergy">à Cergy</label></td>
+						<td><input type="radio" name="codeur" id="ciTpParis"> <label for="ciTpParis">à Paris</label></td>
 					</tr>
 				</tbody>
 			</table>
@@ -133,11 +140,11 @@
 			
 			<h4> BAC+3 (en 1 an) : </h4>
 
-			<p><input type="checkbox" name="license" id="license"> <label for="license">Licence d’Informatique générale</label> </p>
+			<p><input type="radio" name="firstchoice" id="license"> <label for="license">Licence d’Informatique générale</label> </p>
 
-	        <p><input type="checkbox" name="cdsmc" id="cdsmc"> <label for="cdsmc">Concepteur développeur de solution mobiles et connectées</label> <br/>
-	        <input type="checkbox" name="cdsmcAlt" id="cdsmcAlt"> <label for="cdsmcAlt">En alternance à Cergy</label></td>
-			<input type="checkbox" name="cdsmcTP" id="cdsmcTP"> <label for="cdsmcTP">En temps plein à Paris (payant)</label> </td>
+	        <p><input type="radio" name="firstchoice" id="cdsmc"> <label for="cdsmc">Concepteur développeur de solution mobiles et connectées</label> <br/>
+	        <input type="radio" name="devmobile" id="cdsmcAlt"> <label for="cdsmcAlt">En alternance à Cergy</label></td>
+			<input type="radio" name="devmobile" id="cdsmcTP"> <label for="cdsmcTP">En temps plein à Paris (payant)</label> </td>
 	        </p>
 
 			<h4> BAC+5 : </h4>
@@ -151,61 +158,61 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td><input type="checkbox" name="" id="MIIl3"> <label for="MIIl3">Entrée en L3</label></td>
+						<td><input type="radio" name="firstchoice" id="MIIl3"> <label for="MIIl3">Entrée en L3</label></td>
 						<td></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" name="" id="MIIM1"> <label for="MIIM1">Entrée en M1, spécialisation : </label> </td>
-						<td></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="checkbox" name="" id="MSCcyber"> <label for="MSCcyber">MSc Cybersécurité</label> </td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="checkbox" name="" id="MSCnetworkSystem"> <label for="MSCnetworkSystem">MSc Réseaux & Systèmes</label></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="checkbox" name="" id="MSCbigDataCloud"> <label for="MSCbigDataCloud">MSc Big data & Cloud</label> </td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="checkbox" name="" id="MSCgaming"> <label for="MSCgaming">MSc Gaming & Smart Tech</label> </td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="checkbox" name="" id="MSCmanageSI"> <label for="MSCmanageSI">MSc Management des SI & Digitalisation</label> </td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="checkbox" name="" id="ingeLogSyst"> <label for="ingeLogSyst">Ingénierie Logiciels et Systèmes</label> </td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="checkbox" name="" id="AIapp"> <label for="AIapp">Intelligence Artificielle et Applications</label> </td>
-					</tr>
-					<tr>
-						<td><input type="checkbox" name="" id="M2"> <label for="M2">Entrée en M2, spécialisation : </label> </td>
+						<td><input type="radio" name="firstchoice" id="MIIM1"> <label for="MIIM1">Entrée en M1, spécialisation : </label> </td>
 						<td></td>
 					</tr>
 					<tr>
 						<td></td>
-						<td><input type="checkbox" name="" id="MSCit"> <label for="MSCit">MSc Entrepreneuriat & IT</label> </td>
+						<td><input type="radio" name="M1" id="MSCcyber"> <label for="MSCcyber">MSc Cybersécurité</label> </td>
 					</tr>
 					<tr>
 						<td></td>
-						<td><input type="checkbox" name="" id="MSCinternationalbusiness"> <label for="MSCinternationalbusiness">MSc International Business for ITBusinessAnalyste (M1 + M2)</label> </td>
+						<td><input type="radio" name="M1" id="MSCnetworkSystem"> <label for="MSCnetworkSystem">MSc Réseaux & Systèmes</label></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="radio" name="M1" id="MSCbigDataCloud"> <label for="MSCbigDataCloud">MSc Big data & Cloud</label> </td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="radio" name="M1" id="MSCgaming"> <label for="MSCgaming">MSc Gaming & Smart Tech</label> </td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="radio" name="M1" id="MSCmanageSI"> <label for="MSCmanageSI">MSc Management des SI & Digitalisation</label> </td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="radio" name="M1" id="ingeLogSyst"> <label for="ingeLogSyst">Ingénierie Logiciels et Systèmes</label> </td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="radio" name="M1" id="AIapp"> <label for="AIapp">Intelligence Artificielle et Applications</label> </td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="firstchoice" id="M2"> <label for="M2">Entrée en M2, spécialisation : </label> </td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="radio" name="M2" id="MSCit"> <label for="MSCit">MSc Entrepreneuriat & IT</label> </td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="radio" name="M2" id="MSCinternationalbusiness"> <label for="MSCinternationalbusiness">MSc International Business for ITBusinessAnalyste (M1 + M2)</label> </td>
 					</tr>
 				</tbody>
 			</table> 
 			
-			<p>BusinessAnalyste (M1 + M2)</p>
-
-			<input type="checkbox" name="" id="PerfSysyInfo"> <label for="PerfSysyInfo">Performance et systèmes d’information</label>
+			<p>BusinessAnalyste (M1 + M2) <br />
+			<input type="radio" name="firstchoice" id="PerfSysyInfo"> <label for="PerfSysyInfo">Performance et systèmes d’information</label>
 			<br>
-			<input type="checkbox" name="" id="digitalisation"> <label for="digitalisation">Digitisation RH</label>
+			<input type="radio" name="firstchoice" id="digitalisation"> <label for="digitalisation">Digitisation RH</label>
+			</p>
 
 	        </article>
 
@@ -217,60 +224,64 @@
 
 		<section>
 
-	        <h2>Vos Coordonées</h2>
+			<h2>Vos Coordonées</h2>
 
-	        <div class="Coordonées">
+			<div class="Coordonées">
 
-	        	<label> Mme : </label>
-	        	<input type="checkbox">
-		        <label> M : </label>
-		        <input type="checkbox">
-		        <br />
+				<table>
+					<tbody>
+						<tr>
+							<td><label for="Mme"> Mme </label> <input type="radio" name="gender" id="Mme"> </td>
+							<td><label for="Mr"> M </label> <input type="radio" name="gender" id="Mr"></td>
+						</tr>
+						<tr>
+							<td> <label for="name"> Nom : </label> </td>
+							<td><input type="text" id="name" /></td>
+						</tr>
+						<tr>
+							<td><label for="cp"> Code Postal : </label></td>
+							<td><input type="text" size="7" maxlength="5" id="cp" /></td>
+						</tr>
+						<tr>
+							<td><label for="ville"> Ville : </label></td>
+							<td><input type="text" id="ville" /></td>
+						</tr>
+						<tr>
+							<td><label for="adress"> Adresse : </label> </td>
+							<td><input type="text" id="adress"/> </td>
+						</tr>
+						<tr>
+							<td><label for="telfixe"> Tél.fixe : </label></td>
+							<td><input type="tel" id="telfixe"/></td>
+						</tr>
+						<tr>
+							<td><label for="tel"> Portable </label></td>
+							<td><input type="tel" id="tel"/></td>
+						</tr>
+						<tr>
+							<td><label for="email"> E-mail </label></td>
+							<td><input type="email" id="email" /></td>
+						</tr>
+						<tr>
+							<td><label for="naissance"> Date de naissance </label></td>
+							<td><input type="date" id="naissance"/></td>
+						</tr>
+						<tr>
+							<td><label> Nationalité : </label></td>
+							<td>
+								<input type="radio" id="horsUE" name="nationalite">
+								<label for="horsUE" > Hors UE </label>
 
-		        <label> Nom : </label>
-		        <input type="text" />
-		        <br />
+								<input type="radio" id="UE" name="nationalite">
+								<label for="UE"> UE </label>
 
-		        <label> Prénom : </label>
-		        <input type="text" />
-		        <br />
+								<input type="radio" id="fr" name="nationalite">
+								<label for="fr">  Francaise </label>
+							</td>
+						</tr>
 
-		        <label> Adresse : </label>
-		        <input type="text" />
-		        <br />
-
-		        <label> CP : </label>
-		        <input type="text" />
-		        <label> Ville : </label>
-		        <input type="text" />
-		        <br />
-
-		        <label> Tél.fixe :  </label>
-		        <input type="text" />
-		        <br />
-
-		        <label> Portable </label>
-		        <input type="text" />
-		        <br />
-
-		        <label> E-mail </label>
-		        <input type="text" />
-		        <br />
-
-		        <label> Date de naissance </label>
-		        <input type="text" />
-		        <br />
-
-		        <label> Nationalité : </label>
-		        <input type="checkbox">
-		        <label> Hors UE </label>
-
-		        <input type="checkbox">
-		        <label> UE </label>
-
-		        <input type="checkbox">
-		        <label>  Francaise </label>
-
+					</tbody>
+				</table>
 	        </div>
 
 	    </section>
@@ -281,14 +292,22 @@
 
 	        <div class="Scolarité">
 
-		        <label> Niveau de formation actuel : </label>
-		        <input type="text" />
-		        <br>
-		        <label> Etablissement actuel (nom et ville) : </label>
-		        <input type="text" />
-		        <br>
-		        <label> Dernier diplôme obtenu : </label>
-		        <input type="text" />
+				<table>
+					<tbody>
+					<tr>
+						<td><label for="formact"> Niveau de formation actuel : </label></td>
+						<td><input type="text" id="formact"/></td>
+					</tr>
+					<tr>
+						<td><label for="establishment"> Etablissement actuel (nom et ville) : </label></td>
+						<td><input type="text" id="establishment"/></td>
+					</tr>
+					<tr>
+						<td><label for="lastQualification"> Dernier diplôme obtenu : </label></td>
+						<td><input type="text" id="lastQualification" /></td>
+					</tr>
+					</tbody>
+				</table>
 
 			</div>
 
@@ -302,21 +321,21 @@
 	        <input type="text" id="secondChoice"> <br />
 	        <label for="enterLvl1">Niveau d'entrée</label>
 	        <select id="enterLvl1">
-	            <option>L1
-	            <option>L2
-	            <option>L3
-	            <option>M1
-	            <option>M2
+				<option value="L1">L1</option>
+				<option value="L2">L2</option>
+				<option value="L3">L3</option>
+				<option value="M1">M1</option>
+				<option value="M2">M2</option>
 	        </select> <br /> <br />
 	        <label for="choice3">N°3</label>
 	        <input type="text" id="choice3"> <br />
 	        <label for="enterLvl2">Niveau d'entrée</label>
 	        <select id="enterLvl2">
-	            <option>L1
-	            <option>L2
-	            <option>L3
-	            <option>M1
-	            <option>M2
+				<option value="L1">L1</option>
+				<option value="L2">L2</option>
+				<option value="L3">L3</option>
+				<option value="M1">M1</option>
+				<option value="M2">M2</option>
 	        </select>
 
 	    </section>
@@ -327,11 +346,18 @@
 
 	        <div class="parrain">
 
-		        <label for="godfatherName">Nom, prénom</label>
-		        <input type="text" id="godfatherName"> <br />
-		        <label for="godfatherFormation">Formation suivie</label>
-		        <input type="text" id="godfatherFormation"> <br />
-
+				<table>
+					<tbody>
+						<tr>
+							<td><label for="godfatherName">Nom, prénom</label></td>
+							<td><input type="text" id="godfatherName"> <br /></td>
+						</tr>
+						<tr>
+							<td><label for="godfatherFormation">Formation suivie</label></td>
+							<td><input type="text" id="godfatherFormation"> <br /></td>
+						</tr>
+					</tbody>
+				</table>
 		    </div>
 
 	    </section>
@@ -344,28 +370,28 @@
 	                <tbody>
 	                    <tr>
 	                        <td>Contrôleur de gestion</td>
-	                        <td><input type="checkbox" id="VAE1"> <label for="VAE1">VAE</label> </td>
-	                        <td><input type="checkbox" id="PT1"> <label for="PT1">Part-time</label> <br/></td>
+	                        <td><input type="radio" name="fomrcontinue" id="VAE1"> <label for="VAE1">VAE</label> </td>
+	                        <td><input type="radio" name="fomrcontinue" id="PT1"> <label for="PT1">Part-time</label> <br/></td>
 	                    </tr>
 	                    <tr>
 	                        <td>Responsable Management QHSE</td>
-	                        <td><input type="checkbox" id="VAE2"> <label for="VAE2">VAE</label> </td>
-	                        <td><input type="checkbox" id="PT2"> <label for="PT2">Part-time</label> <br/></td>
+	                        <td><input type="radio" name="fomrcontinue" id="VAE2"> <label for="VAE2">VAE</label> </td>
+	                        <td><input type="radio" name="fomrcontinue" id="PT2"> <label for="PT2">Part-time</label> <br/></td>
 	                    </tr>
 	                    <tr>
 	                        <td>Manager en ingeneurie informatique</td>
-	                        <td><input type="checkbox" id="VAE3"> <label for="VAE3">VAE</label> </td>
-	                        <td><input type="checkbox" id="PT3"> <label for="PT3">Part-time</label> <br/></td>
+	                        <td><input type="radio" name="fomrcontinue" id="VAE3"> <label for="VAE3">VAE</label> </td>
+	                        <td><input type="radio" name="fomrcontinue" id="PT3"> <label for="PT3">Part-time</label> <br/></td>
 	                    </tr>
 	                    <tr>
 	                        <td>Business Analyst</td>
 	                        <td></td>
-	                        <td><input type="checkbox" id="PT4"> <label for="PT4">Part-time</label> <br/></td>
+	                        <td><input type="radio" name="fomrcontinue" id="PT4"> <label for="PT4">Part-time</label> <br/></td>
 	                    </tr>
 	                    <tr>
 	                        <td>Manager de la sécurité des risques de l’information</td>
 	                        <td></td>
-	                        <td><input type="checkbox" id="PT5"> <label for="PT5">Part-time</label> <br/></td>
+	                        <td><input type="radio" name="fomrcontinue" id="PT5"> <label for="PT5">Part-time</label> <br/></td>
 	                    </tr>
 
 	                </tbody>
@@ -374,10 +400,10 @@
 
 	        <h3>Votre situation :</h3>
 
-	        <input type="checkbox" id="salaried"> <label for="salaried">Salarié(e), </label> <label for="business">de l'entreprise :</label> <input type="text" id="business"> <br/>
-	        <input type="checkbox" id="jobseeker"> <label for="jobseeker">Demandeur d'emploi</label> <br/>
-	        <input type="checkbox" id="particular"> <label for="particular">Particulier</label> <br/>
-	        <input type="checkbox" id="other"> <label for="other" for="otherText">Autres :</label> <input type="text" id="otherText"> <br/>
+	        <input type="radio" name="situation" id="salaried"> <label for="salaried">Salarié(e), </label> <label for="business">de l'entreprise :</label> <input type="text" id="business"> <br/>
+	        <input type="radio" name="situation" id="jobseeker"> <label for="jobseeker">Demandeur d'emploi</label> <br/>
+	        <input type="radio" name="situation" id="particular"> <label for="particular">Particulier</label> <br/>
+	        <input type="radio" name="situation" id="other"> <label for="other" for="otherText">Autres :</label> <input type="text" id="otherText"> <br/>
 
 	    </section>
 
