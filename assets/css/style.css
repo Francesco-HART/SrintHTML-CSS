@@ -10,7 +10,9 @@ body {
 footer{
     text-align: left;
     background: #27282c;
-    margin-top: 10px ;
+    display: flex;
+    margin-top: 0px ;
+    position: static;
 }
 
 footer h6{
@@ -228,6 +230,12 @@ h3 {
 
 }
 
+.transitionImage{
+    width:100%;
+    margin-top: 30px ;
+    margin-bottom: -10px;
+}
+
 #containImg li {
     text-decoration: none;
     height: 25px;
@@ -241,6 +249,7 @@ h3 {
     margin-top: 24px;
     margin-bottom: 24px;
     color: white;
+
 }
 
 .wt-offset-top-24 a{
@@ -248,11 +257,15 @@ h3 {
     color: white;
 }
 
-.wt-offset-top-24 a:hover {  color: #FFFFFF; text-decoration: underline}
+ footer .wt-offset-top-24 a:hover {  color: #FFFFFF; text-decoration: underline}
 
 
 .logoItescia{
     width: 10px;
     height: 10px;
+}
+.contectLogo {
+   margin-left: 45%;
+    margin-top: 10px;
 }
 
