@@ -103,6 +103,16 @@ li a:hover {
       background-image: url(images/background-photo-mobile-devices.jpg);
     }
   }
+
+.info {
+	margin-top: 100px;
+	background-color: gray;
+	padding-left: 10px;
+	padding-top: 0.1px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+
 /* espacement text */
 
 .Coordonées {
@@ -121,19 +131,31 @@ li a:hover {
 
 .pagegauche {
 	text-align: left;
-	padding: 10px;
-	background-color: #D3D3D3;
-	width: 660px;
-	border-radius: 10px ;
-	margin-right: 100px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #C0C0C0;
+	width: 655px;
+	border-radius: 10px;
+	margin-right: 60px;
+	margin-bottom: 20px;
+
+	box-shadow:16px 16px 16px gray,
+	0px 0px 0px white; /*-8px -8px 16px white*/
 }
 
 .pagedroite {
 	text-align: left;
 	padding: 10px;
-	background-color: #D3D3D3;
+	background-color: #C0C0C0;
 	width: 660px;
-	border-radius: 10px ;
+	border-radius: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+
+	box-shadow:16px 16px 16px gray,
+	0px 0px 0px white; /*-8px -8px 16px white*/
+
 }
 
 .pages {
@@ -144,7 +166,8 @@ li a:hover {
 
 .dateEvent {
 	font-size: 20px;
-	padding-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	text-align: center;
 }
 
@@ -152,4 +175,8 @@ li a:hover {
 
 h2 {
 	color: red;
+}
+
+h3 {
+	color: orange;
 }
