@@ -239,7 +239,7 @@ h3 {
 .transitionImage{
     width:100%;
     margin-top: 30px ;
-    margin: -10px;
+    margin-bottom: -10px;
 }
 
 #containImg li {
