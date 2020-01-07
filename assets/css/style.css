@@ -140,8 +140,9 @@ li a:hover {
 	background-color: #C0C0C0;
 	width: 655px;
 	border-radius: 10px;
-	margin-right: 60px;
-	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 70px;
+	margin-bottom: 30px;
 
 	box-shadow:16px 16px 16px gray,
 	0px 0px 0px white; /*-8px -8px 16px white*/
@@ -154,7 +155,7 @@ li a:hover {
 	width: 660px;
 	border-radius: 10px;
 	margin-right: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 
 	box-shadow:16px 16px 16px gray,
 	0px 0px 0px white; /*-8px -8px 16px white*/
@@ -169,8 +170,8 @@ li a:hover {
 
 .dateEvent {
 	font-size: 20px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 
