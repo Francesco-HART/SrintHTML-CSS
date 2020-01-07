@@ -73,7 +73,7 @@ footer h6{
     display: inline-block;
     font-size: 16px;
     border-radius: 50px;
-    border-color: transparent; 
+    border-color: transparent;
     outline:none;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
@@ -274,4 +274,6 @@ h3 {
    margin-left: 45%;
     margin-top: 10px;
 }
+
+
 
