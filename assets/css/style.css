@@ -10,8 +10,9 @@ body {
 footer{
     text-align: left;
     background: #27282c;
-
+    display: flex;
     margin-top: 10px ;
+    position: static;
 }
 
 footer h6{
@@ -252,6 +253,7 @@ h3 {
     margin-top: 24px;
     margin-bottom: 24px;
     color: white;
+
 }
 
 .wt-offset-top-24 a{
@@ -259,11 +261,15 @@ h3 {
     color: white;
 }
 
-.wt-offset-top-24 a:hover {  color: #FFFFFF; text-decoration: underline}
+ footer .wt-offset-top-24 a:hover {  color: #FFFFFF; text-decoration: underline}
 
 
 .logoItescia{
     width: 10px;
     height: 10px;
+}
+.contectLogo {
+   margin-left: 45%;
+    margin-top: 10px;
 }
 
