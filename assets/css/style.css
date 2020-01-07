@@ -12,6 +12,7 @@ footer{
     background: #27282c;
     display: flex;
     margin-top: 0px ;
+    margin-bottom: 0px;
     position: static;
 }
 
@@ -45,10 +46,12 @@ footer h6{
 .landingcontent {
     position: absolute;
     text-align: center;
-
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+.landingcontent:hover{
+    color: #90323D;
 }
 
 .landingcontent .text {
@@ -81,16 +84,20 @@ footer h6{
     color: #90323D;
 }
 
-a {
-    color: white;
-}
+
 
 .button a {
     text-decoration: none;
+    color: white;
 }
 
 .button a:visited{
     text-decoration: none;
+
+}
+.button a:hover{
+    text-decoration: none;
+    color: #90323D;
 }
 
 .button-candidate {
@@ -101,28 +108,28 @@ a {
 
         /* ---------- NAVBAR ---------- */
 
-nav {
+header nav {
     float: right;
     padding: 20px;
 }
 
-ul {
+header ul {
     list-style-type: none;
 
 }
 
-li {
+header li {
     display: inline-block;
 }
 
-li a {
+header li a {
     color: black;
     text-align: center;
     padding: 0px 10px;
     text-decoration: none;
 }
 
-li a:hover {
+header li a:hover {
     background-color: lightgrey;
   }
 
