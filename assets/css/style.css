@@ -1,11 +1,25 @@
 
+/* espacement text */
+
+.Coordonées {
+	line-height: 25px;
+}
+
+.Scolarité {
+	line-height: 25px;
+}
+
+.parrain {
+	line-height: 25px;
+}
+
 /* affichage des 2 pages flex */
 
 .pagegauche {
 	text-align: left;
 	padding: 10px;
 	background-color: #D3D3D3;
-	width: 650px;
+	width: 660px;
 	border-radius: 10px ;
 	margin-right: 100px;
 }
@@ -14,7 +28,7 @@
 	text-align: left;
 	padding: 10px;
 	background-color: #D3D3D3;
-	width: 650px;
+	width: 660px;
 	border-radius: 10px ;
 }
 
@@ -22,11 +36,15 @@
 	display: flex;
 }
 
+/* position du date event */
+
 .dateEvent {
 	font-size: 20px;
 	padding-bottom: 20px;
 	text-align: center;
 }
+
+/* couleur titre */
 
 h2 {
 	color: red;
