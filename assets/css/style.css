@@ -7,6 +7,20 @@ body {
     padding: 0;
     margin: 0;
 }
+footer{
+    text-align: left;
+    background: #27282c;
+
+    margin-top: 10px ;
+}
+
+footer h6{
+    size: 3em;
+    margin: 0px 0px 0px 30px;
+    color: #4c4c4f;
+    padding-bottom: 10px;
+    display: inline-block;
+}
 
 /* ---------- LANDING HEADER ---------- */
 .header {
@@ -209,3 +223,42 @@ h2 {
 h3 {
 	color: orange;
 }
+
+
+/*FOOTER*/
+.white-divider{
+    width: 100px;
+    height: 4px;
+    background: black;
+    margin:  auto;
+
+}
+
+#containImg li {
+    text-decoration: none;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.wt-offset-top-24 {
+    margin-left: 30px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.wt-offset-top-24 a{
+    text-decoration: none;
+    color: white;
+}
+
+.wt-offset-top-24 a:hover {  color: #FFFFFF; text-decoration: underline}
+
+
+.logoItescia{
+    width: 10px;
+    height: 10px;
+}
+
