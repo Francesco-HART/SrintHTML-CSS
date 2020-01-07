@@ -175,30 +175,31 @@ header li a:hover {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: #C0C0C0;
-	width: 655px;
 	border-radius: 10px;
-	margin-left: 20px;
-	margin-bottom: 30px;
+	margin-left: 2%;
+	margin-bottom: 3%;
 
 	box-shadow:16px 16px 16px gray,
 	0px 0px 0px white; /*-8px -8px 16px white*/
+	flex-basis: 43%;
 }
 
 .pagedroite {
 	text-align: left;
-	padding: 10px;
+	padding: 20px;
 	background-color: #C0C0C0;
-	width: 660px;
 	border-radius: 10px;
-	margin-right: 20px;
-	margin-bottom: 30px;
+	margin-right: 2%;
+	margin-bottom: 3%;
 
 	box-shadow:16px 16px 16px gray,
 	0px 0px 0px white; /*-8px -8px 16px white*/
+	flex-basis: 43%;
 
 }
 
 .pages {
+	margin: 50px;
 	display: flex;
 	justify-content: space-between;
 	flex-basis: 45%;
@@ -208,8 +209,6 @@ header li a:hover {
 
 .dateEvent {
 	font-size: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
 	text-align: center;
 }
 
