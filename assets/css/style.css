@@ -11,7 +11,7 @@ footer{
     text-align: left;
     background: #27282c;
     display: flex;
-    margin-top: 10px ;
+    margin-top: 0px ;
     position: static;
 }
 
@@ -238,6 +238,8 @@ h3 {
 
 .transitionImage{
     width:100%;
+    margin-top: 30px ;
+    margin: -10px;
 }
 
 #containImg li {
