@@ -75,3 +75,8 @@
     margin-bottom: 1%;
     width: 75%;
 }
+#content { height: 100%; }
+
+#content > md-content {
+    background-color: #eee;
+}
