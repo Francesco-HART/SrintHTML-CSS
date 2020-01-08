@@ -114,8 +114,8 @@
 						</select></td>
 					<tr>
 						<td>BAC +5</td>
-						<td><label for="mqpi">Manager Qualité et Processus Intelligents</label></td>
-						<td><label for="mqpi">M2</label><input type="radio" name="firstchoice" id="mqpi"></td>
+						<td><label for="mqpi">Manager Qualité et Processus Intelligents - M2</label></td>
+						<td><label for="mqpi"></label><input type="radio" name="firstchoice" id="mqpi"></td>
 					</tr>
 				</table>
 
@@ -130,18 +130,20 @@
 				<table class="degreetable" style="width:100%">
 					<tr>
 						<td rowspan="2">BAC +2</td>
-						<td>BTS SIO</td>
+						<td><label for="SIO">BTS SIO</label></td>
 						<td>
-							<select style="width:110px;">
+							<input type="radio" name="firstchoice" id="SIO">
+							<select id="SIO" style="width:110px;">
 								<option selected disabled>Option</option>
 								<option>Solutions d'infrastructure, systèmes et réseaux (SISR)</option>
-								<option>Solutions logicielles et applications métiers (SIO)</option>
+								<option>Solutions logicielles et applications métiers (SLAM)</option>
 							</select>
 						</td>
 					</tr>
 					<tr>
-						<td>Codeur informatique</td>
+						<td><label for="codeur">Codeur informatique</label></td>
 						<td>
+							<input type="radio" name="firstchoice" id="codeur">
 							<select id="codeur" style="width:110px;">
 								<option selected disabled>Localisation</option>
 								<option value="En 2 ans en alternance à Cergy">En 2 ans en alternance à Cergy</option> 
@@ -152,12 +154,13 @@
 					</tr>
 					<tr>
 						<td rowspan="2">BAC +3</td>
-						<td>Licence d’Informatique générale</td>
+						<td><label for="license">Licence d’Informatique générale</label></td>
 						<td><input type="radio" name="firstchoice" id="license"></td>
 					</tr>
 					<tr>
-						<td>Concepteur développeur de solution mobiles et connectées (Coding Factory)</td>
+						<td><label for="cdsmc">Concepteur développeur de solution mobiles <br> et connectées (Coding Factory)</label></td>
 						<td>
+							<input type="radio" name="firstchoice" id="cdsmc">
 							<select id="cdsmc" style="width:110px;">
 								<option selected disabled>Localisation</option>
 								<option value="En alternance à Cergy">En alternance à Cergy</option> 
@@ -167,12 +170,13 @@
 					</tr>
 					<tr>
 						<td rowspan="4">BAC +5</td>
-						<td>Manager en Ingénierie Informatique (M2I) - entrée en L3</td>
+						<td><label for="M2I">Manager en Ingénierie Informatique (M2I) - entrée en L3</label></td>
 						<td><input type="radio" name="firstchoice" id="M2I"></td>
 					</tr>
 					<tr>
-						<td>Manager en Ingénierie Informatique (M2I) - entrée en M1</td>
+						<td><label for="MIIM1">M2I - entrée en M1</label></td>
 						<td>
+							<input type="radio" name="firstchoice" id="MIIM1">
 							<select id="MIIM1" style="width:110px;">
 								<option selected disabled>Spécialité</option>
 								<option value="MSc Cybersécurité">MSc Cybersécurité</option> 
@@ -186,8 +190,9 @@
 						</td>
 					</tr>
 					<tr>
-						<td>Manager en Ingénierie Informatique (M2I) - entrée en M2</td>
+						<td><label for="M2">M2I - entrée en M2</label></td>
 						<td>
+							<input type="radio" name="firstchoice" id="M2">
 							<select id="M2" style="width:110px;">
 								<option selected disabled>Spécialité</option>
 								<option value="MSc Entrepreneuriat & IT">MSc Entrepreneuriat & IT</option> 
@@ -196,8 +201,9 @@
 						</td>
 					</tr>
 					<tr>
-						<td>Business Analyste</td>
+						<td><label for="BAM1M2">Business Analyste - M1/M2</label></td>
 						<td>
+							<input type="radio" name="firstchoice" id="BAM1M2">
 							<select id="BAM1M2" style="width:110px;">
 								<option selected disabled>Spécialité</option>
 								<option value="Performance et systèmes d’information">Performance et systèmes d’information</option> 
