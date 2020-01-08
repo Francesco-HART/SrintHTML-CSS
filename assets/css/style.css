@@ -69,12 +69,12 @@ nav {
 
 .button {
     background-color: #90323D;
+    color: white;
+    font-size: 16px;
     text-align: center;
     text-decoration: none;
-    color: white;
     padding: 15px 32px;
     display: inline-block;
-    font-size: 16px;
     border-radius: 50px;
     border-color: transparent;
     outline:none;
@@ -82,29 +82,28 @@ nav {
     transition-duration: 0.4s;
 }
 
-.button:hover {
-    background-color: white;
-    color: #90323D;
+.button a {
+    text-decoration: none;
 }
 
-
-
-.button a {
+.button a:visited {
     text-decoration: none;
     color: white;
 }
 
-.button a:visited{
-    text-decoration: none;
-
-}
-.button a:hover{
+.button a:hover {
     text-decoration: none;
     color: #90323D;
 }
 
-.button-candidate {
+.button .button-candidate {
     margin: 25px 8px 0 8px;
+    color: #90323D;
+}
+
+.button-candidate:hover {
+    background-color: white;
+    color: #90323D;
 }
 
 
@@ -154,6 +153,57 @@ header li a:hover {
 	border-radius: 10px;
 }
 
+/* ---------- DEGREE CHOICE (FIRST COLUMN) ---------- */
+
+#degreechoice {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+#seconddegreechoice {
+	background-color: black;
+    color: white;
+    text-align: center;
+    margin: 30px 0px 30px;
+    padding: 20px;
+}
+
+#gestiontitle {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+#manatitle {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+#ittitle{
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.degreetable {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-right: transparent;
+}
+
 /* espacement text */
 
 .Coordonées {
@@ -174,16 +224,14 @@ header li a:hover {
 .pagegauche {
 	text-align: left;
 	padding-left: 10px;
-	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: #C0C0C0;
+	background-color:white;
 	border-radius: 10px;
-	margin-left: 2%;
-	margin-bottom: 3%;
+	margin-left: 1%;
 
 	box-shadow:16px 16px 16px gray,
 	0px 0px 0px white; /*-8px -8px 16px white*/
-	flex-basis: 43%;
+	flex-basis: 48%;
 }
 
 .pagedroite {
@@ -191,8 +239,7 @@ header li a:hover {
 	padding: 20px;
 	background-color: #C0C0C0;
 	border-radius: 10px;
-	margin-right: 2%;
-	margin-bottom: 3%;
+	margin-right: 1%;
 
 	box-shadow:16px 16px 16px gray,
 	0px 0px 0px white; /*-8px -8px 16px white*/
@@ -201,7 +248,8 @@ header li a:hover {
 }
 
 .pages {
-	margin: 50px;
+    margin-top: 2%;
+    margin-bottom: 1%;
 	display: flex;
 	justify-content: space-between;
 	flex-basis: 45%;
