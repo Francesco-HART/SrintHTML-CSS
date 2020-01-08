@@ -154,10 +154,13 @@ header li a:hover {
 }
 
 /* ---------- DEGREE CHOICE (FIRST COLUMN) ---------- */
+
 #degreechoice {
     background-color: black;
     color: white;
     text-align: center;
+    margin: 0 0 30px;
+    border-radius: 10px;
 }
 
 #gestiontitle {
@@ -172,15 +175,28 @@ header li a:hover {
     text-align: center;
 }
 
-#infotitle{
+#ittitle{
     background-color: lightblue;
     color: white;
     text-align: center;
 }
 
-.gestiondegree {
+.gestiondegree, .manadegree, .itdegree {
     text-align: center;
     border: 1px solid border;
+}
+
+.manadegree {
+    text-align: center;
+    border: 1px solid border;
+}
+
+.itdegree{
+
+}
+
+.title {
+
 }
 
 
