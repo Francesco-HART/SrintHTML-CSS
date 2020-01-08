@@ -34,7 +34,7 @@
         <div class="landingcontent"> 
             <h1 class="text">Préparez idéalement votre diplôme à ITESCIA !</h1>
             <button class="button button-candidate"><a href="#contact">RESTONS EN CONTACT !</a></button>
-           <button class="button button-candidate"> <a href="https://formations.cci-paris-idf.fr/MOC/index.php/preinscription/">INSCRIVEZ-VOUS DES MAINTENANT !</a></button>
+           <button class="button button-candidate"> <a href="https://formations.cci-paris-idf.fr/MOC/index.php/preinscription/" target="_blank">INSCRIVEZ-VOUS DES MAINTENANT !</a></button>
         </div>
     </header>
 
@@ -305,12 +305,16 @@
 					<h2>Vos Coordonées</h2>
 				</div>
 				<div class="coordonees">
-					<label for="Mme"> Mme </label> <input type="radio" name="gender" id="Mme" class="checkbox">
-					<label for="Mr"> M </label> <input type="radio" name="gender" id="Mr">
+					<label for="Mme"> Madame </label> <input type="radio" name="gender" id="Mme" class="checkbox">
+					<label for="Mr"> Monsieur </label> <input type="radio" name="gender" id="Mr">
 					<div class="white-divider"></div>
 
 					<label for="name"> Nom : </label><br>
 					<input type="text" id="name"/>
+					<div class="white-divider"></div>
+
+					<label for="adress"> Adresse : </label><br>
+					<input type="text" id="adress"/>
 					<div class="white-divider"></div>
 
 					<label for="cp"> Code Postal : </label><br>
@@ -321,36 +325,31 @@
 					<input type="text" id="ville"/>
 					<div class="white-divider"></div>
 
-					<label for="adress"> Adresse : </label><br>
-					<input type="text" id="adress"/>
-					<div class="white-divider"></div>
-
-					<label for="telfixe"> Tél.fixe : </label><br>
+					<label for="telfixe"> Téléphone fixe : </label><br>
 					<input type="tel" id="telfixe"/>
 					<div class="white-divider"></div>
 
-					<label for="tel"> Portable </label><br>
+					<label for="tel"> Portable :</label><br>
 					<input type="tel" id="tel"/>
 					<div class="white-divider"></div>
 
-					<label for="email"> E-mail </label><br>
+					<label for="email"> Email : </label><br>
 					<input type="email" id="email"/>
 					<div class="white-divider"></div>
 
-					<label for="naissance"> Date de naissance </label><br>
+					<label for="naissance"> Date de naissance :</label><br>
 					<input type="date" id="naissance"/>
 					<div class="white-divider"></div>
 
 					<label> Nationalité : </label>
-					<input type="radio" id="horsUE" name="nationalite">
-					<label for="horsUE"> Hors UE </label>
+					<input type="radio" id="fr" name="nationalite">
+					<label for="fr"> Française </label>
 
 					<input type="radio" id="UE" name="nationalite">
 					<label for="UE"> UE </label>
 
-					<input type="radio" id="fr" name="nationalite">
-					<label for="fr"> Française </label>
-
+					<input type="radio" id="horsUE" name="nationalite">
+					<label for="horsUE"> Hors UE </label>
 
 				</div>
 
@@ -388,11 +387,11 @@
 
 				<div class="parrain">
 
-					<label for="godfatherName">Nom, prénom</label><br>
+					<label for="godfatherName">Nom & prénom : </label><br>
 					<input type="text" id="godfatherName"> <br/>
 					<div class="white-divider"></div>
 
-					<label for="godfatherFormation">Formation suivie</label><br>
+					<label for="godfatherFormation">Formation suivie :</label><br>
 					<input type="text" id="godfatherFormation"> <br/>
 				</div>
 
