@@ -1,0 +1,77 @@
+
+.pagedroite {
+    width: 50%;
+    margin-left: 3%;
+    box-shadow: 0px 0px 20px lightgray ;
+    border-radius: 15px;
+
+}
+.pagedroite .title {
+    border-radius: 15px;
+}
+
+.pagedroite h2 {
+    background-color: black;
+    color : white;
+    margin: auto ;
+    padding: 20px 30px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.pagedroite .title h2 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+@media (max-width: 1099px) {
+   .pagedroite  {
+        width: 50% !important;
+    }
+}
+
+
+
+.pagedroite .scolarite input[type="text"],[type="tel"], [type="email"],[type="date"], .parrain input[type="text"],[type="tel"], [type="email"],[type="date"] , .info input[type="text"],[type="tel"], [type="email"],[type="date"] {
+    padding: 16px;
+    margin-left: 10%;
+    width: 75%;
+    background: #f5f5f5;
+    border: none;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.pagedroite .coordonees input[type="text"],[type="tel"], [type="email"],[type="date"] {
+    padding: 16px;
+    margin-left: 10%;
+    width: 75%;
+    background: #f5f5f5;
+    border: none;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+
+.pagedroite input[type="date"] {
+    width: 100px; !important;
+
+}
+
+.pagedroite .coordonees, .scolarite, .parrain, .info {
+    margin-left: 3%;
+}
+
+.pagedroite .info {
+    background-color: lightgray;
+    margin: 1%;
+}
+
+.white-divider{
+    height: 2px;
+    background: #f5f5f5;;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    width: 75%;
+}

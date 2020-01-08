@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styledroite.css">
+    <title>
+
+    </title>
+</head>
+<body>
+
+
+<!--PAGE DROOITE-->
+<div class="pagedroite">
+    <section >
+        <div class="title">
+         <h2>Vos Coordonées</h2>
+        </div>
+        <div class="coordonees">
+            <label for="Mme"> Mme </label> <input type="radio" name="gender" id="Mme" class="checkbox">
+            <label for="Mr"> M </label> <input type="radio" name="gender" id="Mr">
+            <div class="white-divider"></div>
+
+            <label for="name"> Nom : </label><br>
+            <input type="text" id="name"/>
+            <div class="white-divider"></div>
+
+            <label for="cp"> Code Postal : </label><br>
+            <input type="text" size="7" maxlength="5" id="cp"/>
+            <div class="white-divider"></div>
+
+            <label for="ville"> Ville : </label><br>
+            <input type="text" id="ville"/>
+            <div class="white-divider"></div>
+
+            <label for="adress"> Adresse : </label><br>
+            <input type="text" id="adress"/>
+                <div class="white-divider"></div>
+
+                <label for="telfixe"> Tél.fixe : </label><br>
+                <input type="tel" id="telfixe"/>
+                <div class="white-divider"></div>
+
+                <label for="tel"> Portable </label><br>
+                <input type="tel" id="tel"/>
+                <div class="white-divider"></div>
+
+                <label for="email"> E-mail </label><br>
+                <input type="email" id="email"/>
+                <div class="white-divider"></div>
+
+                <label for="naissance"> Date de naissance </label><br>
+                <input type="date" id="naissance"/>
+                <div class="white-divider"></div>
+
+                <label> Nationalité : </label>
+                <input type="radio" id="horsUE" name="nationalite">
+                <label for="horsUE"> Hors UE </label>
+
+                <input type="radio" id="UE" name="nationalite">
+                <label for="UE"> UE </label>
+
+                <input type="radio" id="fr" name="nationalite">
+                <label for="fr"> Française </label>
+
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Votre Scolarité :</h2>
+
+        <div class="scolarite">
+
+                    <label for="formact"> Niveau de formation actuel : </label><br>
+
+
+            <input type="text" id="formact"/>
+            <div class="white-divider"></div>
+
+            <label for="establishment"> Etablissement actuel (nom et ville) : </label><br>
+            <input type="text" id="establishment"/>
+            <div class="white-divider"></div>
+
+
+
+            <label for="lastQualification"> Dernier diplôme obtenu : </label><br>
+            <input type="text" id="lastQualification"/>
+
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Votre parrain à Itescia</h2>
+
+        <div class="parrain">
+
+                    <label for="godfatherName">Nom, prénom</label><br>
+                    <input type="text" id="godfatherName"> <br/>
+                    <div class="white-divider"></div>
+
+                    <label for="godfatherFormation">Formation suivie</label><br>
+                    <input type="text" id="godfatherFormation"> <br/>
+        </div>
+
+    </section>
+
+    <section class="info">
+
+        <h3>Formation continue :</h3>
+
+        <table>
+            <tbody>
+            <tr>
+                <td>Contrôleur de gestion</td>
+                <td><input type="radio" name="fomrcontinue" id="VAE1"> <label for="VAE1">VAE</label></td>
+                <td><input type="radio" name="fomrcontinue" id="PT1"> <label for="PT1">Part-time</label> <br/></td>
+            </tr>
+            <tr>
+                <td>Responsable Management QHSE</td>
+                <td><input type="radio" name="fomrcontinue" id="VAE2"> <label for="VAE2">VAE</label></td>
+                <td><input type="radio" name="fomrcontinue" id="PT2"> <label for="PT2">Part-time</label> <br/></td>
+            </tr>
+            <tr>
+                <td>Manager en ingeneurie informatique</td>
+                <td><input type="radio" name="fomrcontinue" id="VAE3"> <label for="VAE3">VAE</label></td>
+                <td><input type="radio" name="fomrcontinue" id="PT3"> <label for="PT3">Part-time</label> <br/></td>
+            </tr>
+            <tr>
+                <td>Business Analyst</td>
+                <td></td>
+                <td><input type="radio" name="fomrcontinue" id="PT4"> <label for="PT4">Part-time</label> <br/></td>
+            </tr>
+            <tr>
+                <td>Manager de la sécurité des risques de l’information</td>
+                <td></td>
+                <td><input type="radio" name="fomrcontinue" id="PT5"> <label for="PT5">Part-time</label> <br/></td>
+            </tr>
+
+            </tbody>
+
+        </table>
+
+        <h3>Votre situation :</h3>
+
+        <input type="radio" name="situation" id="salaried"> <label for="salaried">Salarié(e), </label> <label
+            for="business">de l'entreprise :</label> <input type="text" id="business"> <br/>
+        <input type="radio" name="situation" id="jobseeker"> <label for="jobseeker">Demandeur d'emploi</label> <br/>
+        <input type="radio" name="situation" id="particular"> <label for="particular">Particulier</label> <br/>
+        <input type="radio" name="situation" id="other"> <label for="other" for="otherText">Autres :</label> <input
+            type="text" id="otherText"> <br/>
+    </section>
+</div>
+</div>
+
+</div>
+</body>
+</html>
