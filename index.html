@@ -46,37 +46,70 @@
 
                 <article>
 
-                    <h2>Votre 1er choix de formation à ITESCIA :</h2>
+                    <h2 id="degreechoice">Votre 1er choix de formation à ITESCIA :</h2>
 
-                    <h3> GESTION </h3>
+					<h3 id="gestiontitle"> GESTION </h3>
+					
+					<table class="gestiondegree" style="width:100%">
+						<tr>
+							<th></th>
+							<th></th>
+							<th></th>
+						</tr>
+						<tr>
+							<td width="5%">BAC +2</td>
+							<td>BTS Comptabilité & Gestion</td>
+							<td><input type="radio" name="firstchoice" id="btsCG"></td>
+						</tr>
+						<tr>
+							<td rowspan=2>BAC +3</td>
+							<td rowspan=2>Diplôme de Comptabilité et de Gestion</td>
+							<td rowspan=2>L1<input type="radio" name="firstchoice" id="dcgL1"></td>
+						</tr>
+						<tr>
+							<td>L2<input type="radio" name="firstchoice" id="dcgL1"></td>
+						</tr>
+						<tr>
+							<td rowspan="2">BAC +4</td>
+							<td rowspan="2">Licence Contrôleur de Gestion</td>
+							<td rowspan="2">L3<input type="radio" name="firstchoice" id="cgL3"></td>
+						</tr>
+						<tr>
+							<td>M1<input type="radio" name="firstchoice" id="cgM1"></td>
+						</tr>
+						<tr>
+							<td>BAC +5</td>
+							<td>Diplôme supérieur de comptabilité et de gestion</td>
+							<td> <input type="radio" name="firstchoice" id="DSCG"></td>
+						</tr>
+					</table>
 
-                    <h4>BAC +2 </h4>
-                    <input type="radio" name="firstchoice" id="btsCG">
-                    <label for="btsCG">BTS CG</label>
 
-                    <h4>BAC +3</h4>
-                    <p>DCG</p>
-                    <input type="radio" name="firstchoice" id="dcgL1">
-                    <label for="dcgL1"> Entrée en L1 </label>
+				<h3 id="manatitle"> MANAGEMENT </h3>
+				
 
-                    <input type="radio" name="firstchoice" id="dcgL2">
-                    <label for="dcgL2"> Entrée en L2</label>
+				<table class="manadegree">
 
-	            <h4>BAC +4</h4>
-	            <p>Controleur de gestion</p>
-	            <input type="radio" name="firstchoice" id="cgL3">
-	            <label for="cgL3"> Entrée en L3 </label>
+				</table>
 
-	            <input type="radio" name="firstchoice" id="cgM1">
-	            <label for="cgM1"> Entrée en M1 </label>
 
-	            <h4>BAC +5 </h4>
-	            <input type="radio" name="firstchoice" id="DSCG">
-	            <label for="DSCG">DSCG (Entrée en M1)</label>
 
-	            <h3> MANAGEMENT </h3>
+
+				``
+
+
+
+
+
+
+
+
+
+
+
+				
 	            
-	            <h4>BAC +4 </h4>
+	            <h4 id="degreelvl">BAC +4 </h4>
 	            <p>Responsable de systèmes de management QHSE</p>
 	            <input type="radio" name="firstchoice" id="qhleL3">
 	            <label for="qhleL3">Entrée en L3</label>
@@ -91,7 +124,7 @@
 	            <input type="radio" name="firstchoice" id="rhM1">
 	            <label for="rhM1">Entrée en M1</label>
 
-	            <h4>BAC +5</h4>
+	            <h4 id="degreelvl">BAC +5</h4>
 
 	            <label for="mqpi">Manager Qualité et Processus Intelligents (entrée en M2)</label>
 	            <input type="radio" name="firstchoice" id="mqpi">
@@ -102,9 +135,9 @@
 
 			<p>
 
-	            <h3>INFORMATIQUE</h3>
+	            <h3 id="infotitle">INFORMATIQUE</h3>
 
-				<h4> BAC+2 : </h4>
+			<h4 id="degreelvl"> BAC+2 : </h4>
 
 	            <p>
 	            <input type="radio" name="firstchoice" id="btssio">
@@ -135,6 +168,7 @@
 				</select>
 
 				<br />
+			<h4 id="degreelvl"> BAC+5 : </h4>
 
 				<h4> BAC+5 : </h4>
 
@@ -178,7 +212,7 @@
 
 	    <section>
 
-	        <h2>Vos autres souhaits de formation à Itescia</h2>
+	        <h2 id="degreechoice">Vos autres souhaits de formation à Itescia</h2>
 
 	        <label for="secondChoice">N°2</label>
 	        <input type="text" id="secondChoice"> <br />

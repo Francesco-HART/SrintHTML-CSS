@@ -69,12 +69,12 @@ nav {
 
 .button {
     background-color: #90323D;
+    color: white;
+    font-size: 16px;
     text-align: center;
     text-decoration: none;
-    color: white;
     padding: 15px 32px;
     display: inline-block;
-    font-size: 16px;
     border-radius: 50px;
     border-color: transparent; 
     outline:none;
@@ -82,29 +82,28 @@ nav {
     transition-duration: 0.4s;
 }
 
-.button:hover {
-    background-color: white;
-    color: #90323D;
+.button a {
+    text-decoration: none;
 }
 
-
-
-.button a {
+.button a:visited {
     text-decoration: none;
     color: white;
 }
 
-.button a:visited{
-    text-decoration: none;
-
-}
-.button a:hover{
+.button a:hover {
     text-decoration: none;
     color: #90323D;
 }
 
-.button-candidate {
+.button .button-candidate {
     margin: 25px 8px 0 8px;
+    color: #90323D;
+}
+
+.button-candidate:hover {
+    background-color: white;
+    color: #90323D;
 }
 
 
@@ -154,6 +153,37 @@ header li a:hover {
 	border-radius: 10px;
 }
 
+/* ---------- DEGREE CHOICE (FIRST COLUMN) ---------- */
+#degreechoice {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#gestiontitle {
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+#manatitle {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+#infotitle{
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+}
+
+.gestiondegree {
+    text-align: center;
+    border: 1px solid border;
+}
+
+
 /* espacement text */
 
 .Coordonées {
@@ -176,13 +206,14 @@ header li a:hover {
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: #C0C0C0;
+	background-color:white;
 	border-radius: 10px;
-	margin-left: 2%;
+	margin-left: 1%;
+    margin-bottom: 1%;
 
 	box-shadow:16px 16px 16px gray,
 	0px 0px 0px white; /*-8px -8px 16px white*/
-	flex-basis: 43%;
+	flex-basis: 48%;
 }
 
 .pagedroite {
@@ -199,8 +230,7 @@ header li a:hover {
 }
 
 .pages {
-	margin-bottom: 3%;
-	margin: 50px;
+    margin-top: 2%;
 	display: flex;
 	justify-content: space-between;
 	flex-basis: 45%;
