@@ -183,36 +183,30 @@ header li a:hover {
     border: 1px solid black;
 }
 
-#manatitle {
-    background-color: #2B303A;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 0px;
-    border: 1px solid black;
+.gestion-title {
+    background-color: #550C18;
+    font-weight:bold;
+   
 }
 
-#ittitle{
+.mana-title {
+    background-color: #2B303A;
+}
+
+.it-title{
     background-color: #2E0014;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 0px;
-    border: 1px solid black;
+}
+
+.fc-title {
+    background-color: slategray;
 }
 
 .degreetable {
     width: 100%;
     text-align: center;
     padding: 10px;
-    
-
 }
 
-.degreetable-gestion {
-
-
-}
 
 .degreetable .padding-top-top td {
 	padding-top: 10px;
@@ -364,8 +358,16 @@ header li a:hover {
     color: white;
 }
 
- footer .wt-offset-top-24 a:hover {  color: #FFFFFF; text-decoration: underline}
+ footer .wt-offset-top-24 a:hover {  
+     color: #FFFFFF; 
+     text-decoration: underline
+    }
 
+.fa-facebook:hover{
+    color: violet;
+}
+
+ 
 
 .logoItescia{
     width: 10px;
