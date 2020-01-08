@@ -55,13 +55,14 @@
 					<table class="gestiondegree" style="width:100%">
 						<tr>
 							<td width="5%">BAC +2</td>
-							<td>BTS Comptabilité & Gestion</td>
+							<td><label for="btsCG">BTS Comptabilité & Gestion</label></td>
 							<td><input type="radio" name="firstchoice" id="btsCG"></td>
 						</tr>
 						<tr>
 							<td>BAC +3</td>
 							<td><label for="DCG">Diplôme de Comptabilité et de Gestion</label></td>
 							<td>
+								<input type="radio" name="firstchoice" id="DCG">
 							<select id="DCG">
 								<option selected disabled>Niveau d'entrée</option>
 								<option value="L1">L1</option>
@@ -72,6 +73,7 @@
 							<td>BAC +4</td>
 							<td><label for="LCG">Licence Contrôleur de Gestion</label></td>
 							<td>
+								<input type="radio" name="firstchoice" id="LCG">
 							<select id="LCG">
 								<option selected disabled>Niveau d'entrée</option>
 								<option value="L3">L3</option>
@@ -80,7 +82,7 @@
 						</tr>
 						<tr>
 							<td>BAC +5</td>
-							<td>Diplôme supérieur de comptabilité et de gestion</td>
+							<td><label for="DSCG">Diplôme supérieur de comptabilité et de gestion</label></td>
 							<td> <input type="radio" name="firstchoice" id="DSCG"></td>
 						</tr>
 					</table>
@@ -94,6 +96,7 @@
 						<td rowspan="2">BAC +4</td>
 						<td><label for="RSMQHSE">Responsable de systèmes de management QHSE</label></td>
 						<td>
+							<input type="radio" name="firstchoice" id="RSMQHSE">
 						<select id="RSMQHSE">
 							<option selected disabled>Niveau d'entrée</option>
 							<option value="L3">L3</option>
@@ -103,6 +106,7 @@
 					<tr>
 						<td><label for="RRH">Responsable Ressources Humaines</label></td>
 						<td>
+							<input type="radio" name="firstchoice" id="RRH">
 						<select id="RRH">
 							<option selected disabled>Niveau d'entrée</option>
 							<option value="L3">L3</option>
@@ -110,8 +114,8 @@
 						</select></td>
 					<tr>
 						<td>BAC +5</td>
-						<td>Manager Qualité et Processus Intelligents</td>
-						<td>M2<input type="radio" name="firstchoice" id="mqpi"></td>
+						<td><label for="mqpi">Manager Qualité et Processus Intelligents</label></td>
+						<td><label for="mqpi">M2</label><input type="radio" name="firstchoice" id="mqpi"></td>
 					</tr>
 				</table>
 
@@ -161,8 +165,6 @@
 
 				<br />
 			<h4 id="degreelvl"> BAC+5 : </h4>
-
-				<h4> BAC+5 : </h4>
 
 				<p>Manager en Ingénierie Informatique</p>
 
