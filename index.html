@@ -104,7 +104,7 @@
 
 	            <h3>INFORMATIQUE</h3>
 
-			<h4> BAC+2 : </h4>
+				<h4> BAC+2 : </h4>
 
 	            <p>
 	            <input type="radio" name="firstchoice" id="btssio">
@@ -115,97 +115,64 @@
 	            <input type="radio" name="firstchoice" id="codeur">
 	            <label for="codeur">Codeur informatique</label>
 
-			<table>
-				<tbody>
-					<tr>
-						<td>En 2 ans en alternance</td>
-						<td><input type="radio" name="codeur" id="ciAltCergy"> <label for="ciAltCergy">à Cergy</label></td>
-						<td><input type="radio" name="codeur" id="ciAltParis"> <label for="ciAltParis">à Paris</label></td>
-					</tr>
-					<tr>
-						<td>En 1 an en temps plein (payant)</td>
-						<td><input type="radio" name="codeur" id="ciTpCergy"> <label for="ciTpCergy">à Cergy</label></td>
-						<td><input type="radio" name="codeur" id="ciTpParis"> <label for="ciTpParis">à Paris</label></td>
-					</tr>
-				</tbody>
-			</table>
-	        </p>
-			
-			<h4> BAC+3 (en 1 an) : </h4>
+	            <select id="codeur">
+					<option selected disabled>Choisir une localisation</option>
+					<option value="En 2 ans en alternance à Cergy">En 2 ans en alternance à Cergy</option> 
+					<option value="En 2 ans en alternance à Paris">En 2 ans en alternance à Paris</option> 
+					<option value="En 1 an en temps plein (payant) à Cergy">En 1 an en temps plein (payant) à Cergy</option>
+					<option value="En 1 an en temps plein (payant) à Paris">En 1 an en temps plein (payant) à Paris</option>
+				</select>
+				
+				<h4> BAC+3 (en 1 an) : </h4>
 
-			<p><input type="radio" name="firstchoice" id="license"> <label for="license">Licence d’Informatique générale</label> </p>
+				<p><input type="radio" name="firstchoice" id="license"> <label for="license">Licence d’Informatique générale</label> </p>
 
-	        <p><input type="radio" name="firstchoice" id="cdsmc"> <label for="cdsmc">Concepteur développeur de solution mobiles et connectées</label> <br/>
-	        <input type="radio" name="devmobile" id="cdsmcAlt"> <label for="cdsmcAlt">En alternance à Cergy</label></td>
-			<input type="radio" name="devmobile" id="cdsmcTP"> <label for="cdsmcTP">En temps plein à Paris (payant)</label> </td>
-	        </p>
+		        <input type="radio" name="firstchoice" id="cdsmc"> <label for="cdsmc">Concepteur développeur de solution mobiles et connectées</label> 
+		        <select id="cdsmc">
+					<option selected disabled>Choisir une localisation</option>
+					<option value="En alternance à Cergy">En alternance à Cergy</option> 
+					<option value="En temps plein à Paris (payant)">En temps plein à Paris (payant)</option>
+				</select>
 
-			<h4> BAC+5 : </h4>
+				<br />
 
-			<p>Manager en Ingénierie Informatique</p>
+				<h4> BAC+5 : </h4>
 
-			<table>
-				<thead>
-					<th></th>
-					<th></th>
-				</thead>
-				<tbody>
-					<tr>
-						<td><input type="radio" name="firstchoice" id="MIIl3"> <label for="MIIl3">Entrée en L3</label></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><input type="radio" name="firstchoice" id="MIIM1"> <label for="MIIM1">Entrée en M1, spécialisation : </label> </td>
-						<td></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="radio" name="M1" id="MSCcyber"> <label for="MSCcyber">MSc Cybersécurité</label> </td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="radio" name="M1" id="MSCnetworkSystem"> <label for="MSCnetworkSystem">MSc Réseaux & Systèmes</label></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="radio" name="M1" id="MSCbigDataCloud"> <label for="MSCbigDataCloud">MSc Big data & Cloud</label> </td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="radio" name="M1" id="MSCgaming"> <label for="MSCgaming">MSc Gaming & Smart Tech</label> </td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="radio" name="M1" id="MSCmanageSI"> <label for="MSCmanageSI">MSc Management des SI & Digitalisation</label> </td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="radio" name="M1" id="ingeLogSyst"> <label for="ingeLogSyst">Ingénierie Logiciels et Systèmes</label> </td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="radio" name="M1" id="AIapp"> <label for="AIapp">Intelligence Artificielle et Applications</label> </td>
-					</tr>
-					<tr>
-						<td><input type="radio" name="firstchoice" id="M2"> <label for="M2">Entrée en M2, spécialisation : </label> </td>
-						<td></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="radio" name="M2" id="MSCit"> <label for="MSCit">MSc Entrepreneuriat & IT</label> </td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="radio" name="M2" id="MSCinternationalbusiness"> <label for="MSCinternationalbusiness">MSc International Business for ITBusinessAnalyste (M1 + M2)</label> </td>
-					</tr>
-				</tbody>
-			</table> 
-			
-			<p>BusinessAnalyste (M1 + M2) <br />
-			<input type="radio" name="firstchoice" id="PerfSysyInfo"> <label for="PerfSysyInfo">Performance et systèmes d’information</label>
-			<br>
-			<input type="radio" name="firstchoice" id="digitalisation"> <label for="digitalisation">Digitisation RH</label>
-			</p>
+				<p>Manager en Ingénierie Informatique</p>
+
+						<input type="radio" name="firstchoice" id="MIIl3"> <label for="MIIl3">Entrée en L3</label>
+
+						<br />
+
+						<input type="radio" name="firstchoice" id="MIIM1"> <label for="MIIM1">Entrée en M1, spécialisation : </label>
+						<select id="MIIM1">
+							<option selected disabled>Choisir un spécialité</option>
+							<option value="MSc Cybersécurité">MSc Cybersécurité</option> 
+							<option value="MSc Réseaux & Systèmes">MSc Réseaux & Systèmes</option>
+							<option value="MSc Big data & Cloud">MSc Big data & Cloud</option>
+							<option value="MSc Gaming & Smart Tech">MSc Gaming & Smart Tech</option>
+							<option value="MSc Management des SI & Digitalisation">MSc Management des SI & Digitalisation</option>
+							<option value="Ingénierie Logiciels et Systèmes">Ingénierie Logiciels et Systèmes</option>
+							<option value="Intelligence Artificielle et Applications">Intelligence Artificielle et Applications</option>
+						</select>
+
+						<br />
+						
+						<input type="radio" name="firstchoice" id="M2"> <label for="M2">Entrée en M2, spécialisation : </label> 
+						<select id="M2">
+							<option selected disabled>Choisir un spécialité</option>
+							<option value="MSc Entrepreneuriat & IT">MSc Entrepreneuriat & IT</option> 
+							<option value="MSc International Business for IT">MSc International Business for IT</option>
+						</select>
+
+						<br />
+
+				<input type="radio" name="firstchoice" id="BAM1M2"> <label for="BAM1M2">BusinessAnalyste (M1 + M2)</label>
+				<select id="BAM1M2">
+					<option selected disabled>Choisir un spécialité</option>
+					<option value="Performance et systèmes d’information">Performance et systèmes d’information</option> 
+					<option value="Digitisation RH">Digitisation RH</option>
+				</select>
 
 	        </article>
 
