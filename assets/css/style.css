@@ -108,6 +108,10 @@ nav {
     color: #90323D;
 }
 
+.button.submit {
+    position: center;
+}
+
 
 
         /* ---------- NAVBAR ---------- */
