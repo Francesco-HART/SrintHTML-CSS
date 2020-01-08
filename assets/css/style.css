@@ -159,26 +159,39 @@ header li a:hover {
     background-color: black;
     color: white;
     text-align: center;
-    margin: 0 0 30px;
-    border-radius: 10px;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+#seconddegreechoice {
+	background-color: black;
+    color: white;
+    text-align: center;
+    margin: 30px 0px 30px;
+    padding: 20px;
 }
 
 #gestiontitle {
     background-color: orange;
     color: white;
     text-align: center;
+    padding: 10px;
+    margin: 0px;
 }
 
 #manatitle {
     background-color: red;
     color: white;
     text-align: center;
+    padding: 10px;
 }
 
 #ittitle{
     background-color: lightblue;
     color: white;
     text-align: center;
+    padding: 10px;
 }
 
 .gestiondegree, .manadegree, .itdegree {
