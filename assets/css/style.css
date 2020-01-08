@@ -181,24 +181,13 @@ header li a:hover {
     text-align: center;
 }
 
-.gestiondegree, .manadegree, .itdegree {
+.degreetable {
+    width: 100%;
     text-align: center;
-    border: 1px solid border;
+    padding: 10px;
+    border: 1px solid black;
+    border-right: transparent;
 }
-
-.manadegree {
-    text-align: center;
-    border: 1px solid border;
-}
-
-.itdegree{
-
-}
-
-.title {
-
-}
-
 
 /* espacement text */
 
