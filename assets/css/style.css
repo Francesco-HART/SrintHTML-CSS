@@ -185,6 +185,7 @@ header li a:hover {
     color: white;
     text-align: center;
     padding: 10px;
+    margin-bottom: 0px;
 }
 
 #ittitle{
@@ -192,6 +193,7 @@ header li a:hover {
     color: white;
     text-align: center;
     padding: 10px;
+    margin-bottom: 0px;
 }
 
 .degreetable {
