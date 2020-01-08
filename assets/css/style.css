@@ -147,10 +147,9 @@ header li a:hover {
 
 .info {
 	margin-top: 100px;
+	margin-right: 10px;
 	background-color: gray;
-	padding-left: 10px;
-	padding-top: 0.1px;
-	padding-bottom: 10px;
+	padding: 0.1px 0px 10px 10px;
 	border-radius: 10px;
 }
 
@@ -205,6 +204,19 @@ header li a:hover {
     border-right: transparent;
 }
 
+.degreetable .padding-top-top td {
+	padding-top: 10px;
+}
+
+.degreetable .padding-top-bot td {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.degreetable .padding-top td {
+	padding-top: 20px;
+}
+
 
 /* affichage des 2 pages flex */
 /*PAGE1*/
@@ -221,7 +233,6 @@ header li a:hover {
 	0px 0px 0px white; /*-8px -8px 16px white*/
 	flex-basis: 48%;
 }
-
 
 
 .pages {
