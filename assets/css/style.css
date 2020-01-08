@@ -108,6 +108,10 @@ nav {
     color: #90323D;
 }
 
+.button.submit {
+    position: center;
+}
+
 
 
         /* ---------- NAVBAR ---------- */
@@ -233,14 +237,12 @@ header li a:hover {
 	margin-left: 1%;
 
     box-shadow: 0px 0px 20px lightgray ;
-	/*box-shadow:16px 16px 16px gray,
-	0px 0px 0px white; /*-8px -8px 16px white*/
 	flex-basis: 48%;
 }
 
 .pagegauche:hover {
 	box-shadow: 0px 0px 20px gray ;
-	margin-left: 1.5%;
+	margin-left: 1.25%;
 }
 
 
@@ -262,7 +264,7 @@ header li a:hover {
 
 .pagedroite:hover {
 	box-shadow: 0px 0px 20px gray ;
-	margin-right: 1.5%;
+	margin-right: 1.25%;
 }
 
 .pagedroite .titlepage2 {
@@ -456,11 +458,44 @@ header li a:hover {
 
 /* ---------- RESPONSIVE DESIGN ---------- */
 
-@media screen and (max-width:1260px) {
+@media screen and (max-width:768px) {
 
-}
+	.pages {
+	    margin-top: 2%;
+	    margin-bottom: 1%;
+		flex-wrap: wrap;
+	}
 
-@media screen and (min-width: 200px) and (max-width:768px) {
+	.pagegauche {
+		text-align: left;
+		padding-bottom: 10px;
+		background-color:white;
+		border-radius: 10px;
+		margin: 0% 2% 1% 2%;
+
+	    box-shadow: 0px 0px 20px lightgray ;
+		flex-basis: 96%;
+	}
+
+	.pagedroite {
+		border-radius: 10px;
+		margin: 1% 2% 0% 2%;
+	    margin-right: 2%;
+	    margin-left: 2%;
+
+	    box-shadow: 0px 0px 20px lightgray ;
+	    flex-basis: 96%;
+	}
+
+	.pagegauche:hover {
+		box-shadow: 0px 0px 20px gray ;
+		flex-basis: 97%;
+	}
+
+	.pagegdroite:hover {
+		box-shadow: 0px 0px 20px gray ;
+		flex-basis: 97%;
+	}
 
 }
 
