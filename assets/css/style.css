@@ -233,13 +233,17 @@ header li a:hover {
 	flex-basis: 48%;
 }
 
+.pagegauche:hover {
+	box-shadow: 0px 0px 20px gray ;
+	margin-left: 1.5%;
+}
+
 
 .pages {
     margin-top: 2%;
     margin-bottom: 1%;
 	display: flex;
 	justify-content: space-between;
-	flex-basis: 45%;
 }
 
 /*PAGE2*/
@@ -250,6 +254,12 @@ header li a:hover {
     box-shadow: 0px 0px 20px lightgray ;
     flex-basis: 48%;
 }
+
+.pagedroite:hover {
+	box-shadow: 0px 0px 20px gray ;
+	margin-right: 1.5%;
+}
+
 .pagedroite .titlepage2 {
     border-radius: 15px;
 }
@@ -264,8 +274,8 @@ header li a:hover {
 }
 
 .pagedroite .title h2 {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     margin-top : 0%;
 }
 
