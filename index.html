@@ -47,7 +47,7 @@
                 <article>
                
 					<div class="title">
-					<h2 id="degreechoice">Votre 1er choix de formation à ITESCIA :</h2>
+					<h2 id="degreechoice">Votre 1er choix de formation</h2>
 					</div>
 					
 					<h3 id="gestiontitle"> GESTION </h3>
@@ -211,81 +211,91 @@
 							</select>
 						</td>
 					</tr>
+					
+				</table>
+
+				<h3 id="manatitle"> FORMATION CONTINUE </h3>
+				<table class=degreetable>
+					<tr>
+						<td><label for="CGFC">Contrôleur de gestion</label></td>
+						<td>
+							<input type="radio" name="firstchoice" id="CGFC">
+							<select>
+								<option> VAE </option>
+								<option> Temps partiel </option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+							<td><label for="QHSEFC">Responsable Management QHSE</label></td>
+							<td>
+								<input type="radio" name="firstchoice" id="QHSEFC">
+								<select>
+									<option> VAE </option>
+									<option> Temps partiel </option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+								<td><label for="M2IFC">Manager en Ingénierie Informatique (M2I)</label></td>
+								<td>
+									<input type="radio" name="firstchoice" id="M2IFC">
+									<select>
+										<option> VAE </option>
+										<option> Temps partiel </option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+									<td><label for="BAFC">Business Analyst</label></td>
+									<td>
+										<input type="radio" name="firstchoice" id="BAFC"> Temps partiel
+									</td>
+								</tr>
+								<tr>
+									
+										<td><label for="MSRIFC">Manager de la sécurité des risques de l’information</label></td>
+										<td>
+											<input type="radio" name="firstchoice" id="MSRIFC">Temps partiel
+										</td>
+									</tr>
+
 				</table>
 
 	        </article>
 
 	    <section>
 
-	        <h2 id="seconddegreechoice">Vos autres souhaits de formation à Itescia</h2>
+			<h2 id="seconddegreechoice">Vos autres souhaits de formation à Itescia</h2>
+			
+			<div class="parrain">
 
-	        <label for="secondChoice">N°2</label>
-	        <input type="text" id="secondChoice"> <br />
-	        <label for="enterLvl1">Niveau d'entrée</label>
-	        <select id="enterLvl1">
-				<option value="L1">L1</option>
-				<option value="L2">L2</option>
-				<option value="L3">L3</option>
-				<option value="M1">M1</option>
-				<option value="M2">M2</option>
-	        </select> <br /> <br />
-	        <label for="choice3">N°3</label>
-	        <input type="text" id="choice3"> <br />
-	        <label for="enterLvl2">Niveau d'entrée</label>
-	        <select id="enterLvl2">
-				<option value="L1">L1</option>
-				<option value="L2">L2</option>
-				<option value="L3">L3</option>
-				<option value="M1">M1</option>
-				<option value="M2">M2</option>
-	        </select>
+					<label for="secondchoice">Votre deuxième choix : </label><br>
+					<input type="text" id="secondchoice"> <br/>
+					<label for="enterLvl1">Niveau d'entrée</label>
+					<select id="enterLvl1">
+						<option value="L1">L1</option>
+						<option value="L2">L2</option>
+						<option value="L3">L3</option>
+						<option value="M1">M1</option>
+						<option value="M2">M2</option>
+					</select>
+					<div class="white-divider"></div>
+
+					<label for="secondchoice">Votre troisième choix :</label><br>
+					<input type="text" id="secondchoice"> <br/>
+					<label for="enterLvl2">Niveau d'entrée</label>
+	        		<select id="enterLvl2">
+						<option value="L1">L1</option>
+						<option value="L2">L2</option>
+						<option value="L3">L3</option>
+						<option value="M1">M1</option>
+						<option value="M2">M2</option>
+	        		</select>
+			</div> 
 	    </section>
 		</section>
-			<section class="info">
-
-				<h3>Formation continue :</h3>
-
-				<table>
-					<tbody>
-					<tr>
-						<td>Contrôleur de gestion</td>
-						<td><input type="radio" name="fomrcontinue" id="VAE1"> <label for="VAE1">VAE</label></td>
-						<td><input type="radio" name="fomrcontinue" id="PT1"> <label for="PT1">Part-time</label> <br/></td>
-					</tr>
-					<tr>
-						<td>Responsable Management QHSE</td>
-						<td><input type="radio" name="fomrcontinue" id="VAE2"> <label for="VAE2">VAE</label></td>
-						<td><input type="radio" name="fomrcontinue" id="PT2"> <label for="PT2">Part-time</label> <br/></td>
-					</tr>
-					<tr>
-						<td>Manager en ingeneurie informatique</td>
-						<td><input type="radio" name="fomrcontinue" id="VAE3"> <label for="VAE3">VAE</label></td>
-						<td><input type="radio" name="fomrcontinue" id="PT3"> <label for="PT3">Part-time</label> <br/></td>
-					</tr>
-					<tr>
-						<td>Business Analyst</td>
-						<td></td>
-						<td><input type="radio" name="fomrcontinue" id="PT4"> <label for="PT4">Part-time</label> <br/></td>
-					</tr>
-					<tr>
-						<td>Manager de la sécurité des risques de l’information</td>
-						<td></td>
-						<td><input type="radio" name="fomrcontinue" id="PT5"> <label for="PT5">Part-time</label> <br/></td>
-					</tr>
-
-					</tbody>
-
-				</table>
-
-				<h3>Votre situation :</h3>
-
-				<input type="radio" name="situation" id="salaried"> <label for="salaried">Salarié(e), </label> <label
-					for="business">de l'entreprise :</label> <input type="text" id="business"> <br/>
-				<input type="radio" name="situation" id="jobseeker"> <label for="jobseeker">Demandeur d'emploi</label> <br/>
-				<input type="radio" name="situation" id="particular"> <label for="particular">Particulier</label> <br/>
-				<input type="radio" name="situation" id="other"> <label for="other" for="otherText">Autres :</label> <input
-					type="text" id="otherText"> <br/>
-			</section>
+			
 		</div>
 
 <!--PAGE DROITE-->

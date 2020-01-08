@@ -68,7 +68,7 @@ nav {
 }
 
 .button {
-    background-color: #90323D;
+    background-color: #550C18;
     color: white;
     font-size: 16px;
     text-align: center;
@@ -94,19 +94,18 @@ nav {
 
 .button a:hover {
     text-decoration: none;
-    color: #90323D;
+    color: #550C18;
 }
 
 .button .button-candidate {
     margin: 25px 8px 0 8px;
-    color: #90323D;
+    color: #550C18;
 }
 
 .button-candidate:hover {
     background-color: white;
-    color: #90323D;
+    color: #550C18;
 }
-
 
 
         /* ---------- NAVBAR ---------- */
@@ -135,15 +134,7 @@ header li a:hover {
     background-color: lightgrey;
   }
 
-/* ---------- RESPONSIVE DESIGN ---------- */
 
-@media only screen and (max-width: 767px) {
-    .landingimage
-    { /* The file size of this background image is 93% smaller
-         to improve page load speed on mobile internet connections */
-      background-image: url(images/background-photo-mobile-devices.jpg);
-    }
-  }
 
 .info {
 	margin-top: 100px;
@@ -158,7 +149,6 @@ header li a:hover {
 #degreechoice {
     background-color: black;
     color: white;
-    text-align: center;
     margin: 0px;
     border-radius: 10px 10px 0px 0px;
     padding: 20px;
@@ -173,35 +163,43 @@ header li a:hover {
 }
 
 #gestiontitle {
-    background-color: orange;
+    background-color: #550C18;
     color: white;
     text-align: center;
     padding: 10px;
     margin: 0px;
+    border: 1px solid black;
 }
 
 #manatitle {
-    background-color: red;
+    background-color: #2B303A;
     color: white;
     text-align: center;
     padding: 10px;
     margin-bottom: 0px;
+    border: 1px solid black;
 }
 
 #ittitle{
-    background-color: lightblue;
+    background-color: #2E0014;
     color: white;
     text-align: center;
     padding: 10px;
     margin-bottom: 0px;
+    border: 1px solid black;
 }
 
 .degreetable {
     width: 100%;
     text-align: center;
     padding: 10px;
-    border: 1px solid black;
-    border-right: transparent;
+    
+
+}
+
+.degreetable-gestion {
+
+
 }
 
 .degreetable .padding-top-top td {
@@ -382,5 +380,13 @@ h3 {
     margin-top: 10px;
 }
 
+/* ---------- RESPONSIVE DESIGN ---------- */
 
+@media screen and (max-width:1260px) {
+
+}
+
+@media screen and (min-width: 200px) and (max-width:768px) {
+
+}
 
