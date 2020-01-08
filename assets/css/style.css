@@ -164,6 +164,16 @@ header li a:hover {
     padding: 20px;
 }
 
+.pagegauche a{
+    color :white;
+    text-decoration: none;
+}
+
+.pagegauche a:visited{
+    text-decoration: none;
+    color :white;
+}
+
 #gestiontitle {
     background-color: #550C18;
     color: white;
