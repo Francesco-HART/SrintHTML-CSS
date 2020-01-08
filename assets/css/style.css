@@ -55,8 +55,7 @@ nav {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 50%;
-    height: 50%;
+    height: 30%;
 }
 
 .landingcontent h1 {
@@ -91,9 +90,8 @@ nav {
 
 .button a:visited {
     text-decoration: none;
-    color: #90323D;
+    color: white;
 }
-
 
 .button .button-candidate {
     margin: 25px 8px 0px 8px;
