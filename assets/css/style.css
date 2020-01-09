@@ -109,23 +109,40 @@ nav {
     color: #90323D;
 }
 
-.hugo {
+.button-gestion {
 	color: white;
 	border-color: transparent;
-    outline:none;
+    outline: none;
     background-color: #550C18;
+    font-size: 18.72px;
 }
 
-.hugo:hover {
-	box-shadow: 0px 0px 20px black ;
-    font-size: 16px;
+.button-management {
+	color: white;
+	border-color: transparent;
+    outline: none;
+    background-color: #2B303A;
+    font-size: 18.72px;
+}
+
+.button-informatique {
+	color: white;
+	border-color: transparent;
+    outline: none;
+    background-color: #2E0014;
+    font-size: 18.72px;
+}
+
+.button-gestion:hover, .button-management:hover, .button-informatique:hover {
+	box-shadow: 3px 5px 5px black ;
     text-align: center;
     text-decoration: none;
-    padding: 15px 32px;
+    padding: 6px 15px;
     display: inline-block;
     border-radius: 50px;
     border-color: transparent;
     outline:none;
+    margin: 0px;
 
     cursor: pointer;
 }
