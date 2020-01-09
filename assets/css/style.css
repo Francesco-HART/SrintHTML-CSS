@@ -270,6 +270,7 @@ header li a:hover {
     color: black;
     background-color: #eee;
     margin-top: 10px;
+    border-radius: 7px;
 }
 
 .dropdown-content:hover {
@@ -633,6 +634,10 @@ input[type=submit]{
     padding: 10px;
     margin: 6px 0 13px 0;
     width: 100%;
+}
+
+input[type="text"],input[type="email"], input[type="tel"], input[type="text"] {
+    font-size: 14px;
 }
 
 
