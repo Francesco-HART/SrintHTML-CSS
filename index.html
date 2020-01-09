@@ -2,26 +2,28 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-<<<<<<< Updated upstream
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:700&display=swap" rel="stylesheet">
-=======
     <link rel="stylesheet" href="assets/css/style.css">
 	<script src="style.js"></script>
 
-	<!--LINKS-->
-	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-	<link href="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.css" rel="stylesheet" type="text/css" />
-	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-	<script src="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.js"></script>
-
+	<!--LINKS JQUERY-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="/resources/demos/style.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+		$( function() {
+			$( ".datepicker" ).datepicker();
+		} );
+	</script>
 
 
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:700&display=swap" rel="stylesheet">
->>>>>>> Stashed changes
     <title> ITESCIA - Formulaire d'inscription 2020/2021 </title>
 
 </head>
@@ -56,14 +58,8 @@
 
 
 <form>
-
-	<!--Date Picker-->
-	
-
-
-
     <div class="pages" id="contact">
-
+		<!--PAGE GAUCHE-->
         <div class="pagegauche"> 	<!-- LEFT SIDE-->
 
             <section>
@@ -363,8 +359,8 @@
 					<input type="email" id="email"/>
 					<div class="white-divider"></div>
 
-					<label for="naissance"> Date de naissance :</label><br>
-					<input type="date" id="naissance"/>
+					<label for="datepicker"> Date de naissance :</label><br>
+					<input type="text" class="datepicker">
 					<div class="white-divider"></div>
 
 					<label> Nationalité : </label>
