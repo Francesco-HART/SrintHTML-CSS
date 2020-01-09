@@ -224,23 +224,23 @@ header li a:hover {
     text-align: center;
     padding: 10px;
     margin: 0px;
-    border: 1px solid black;
+    
 }
 
 .gestion-title {
-    background-color: #550C18;
+    background-image: radial-gradient(#6A8174, #40634F);
 }
 
 .mana-title {
-    background-color: #2B303A;
+    background-image: radial-gradient(#4d6873,#283b42);
 }
 
 .it-title{
-    background-color: #2E0014;
+    background-image: radial-gradient(#782c29, #5c2725);
 }
 
 .fc-title {
-    background-color: slategray;
+    background-image: radial-gradient(#631746,#4a1034);
 }
 
 .degreetable {
@@ -268,8 +268,13 @@ header li a:hover {
     height: 25px;
     border: 1px solid #999;
     font-size: 12px;
-    color: #90323D;
+    color: black;
     background-color: #eee;
+    margin-top: 10px;
+}
+
+.dropdown-content:hover {
+
 }
 
 
