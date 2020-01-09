@@ -567,8 +567,29 @@ header li a:hover {
 
 }
 
+/*--------SUBMIT BUTTON---------*/
 
+.submitbutton{
+    text-align: center;
+}
 
+input[type=submit]{
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    background-color: #90323D;
+    border-radius: 50px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color : white;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    background: #550C18;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
 
 /*DATE PICKER*/
 .demo-non-form {
