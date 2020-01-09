@@ -580,15 +580,14 @@ header li a:hover {
     text-align: center;
 }
 
-.submitbutton:checked::after {
-    -webkit-animation: click-wave 0.65s;
-    -moz-animation: click-wave 0.65s;
-    animation: click-wave 0.65s;
-    background: #90323D;
-    content: '';
-    display: block;
-    position: relative;
-    z-index: 100;
+@keyframes shadow-pulse
+{
+     0% {
+          box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+     }
+     100% {
+          box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
+     }
 }
 
 input[type=submit]{
@@ -596,7 +595,7 @@ input[type=submit]{
     display: inline-block;
     width: 200px;
     height: 70px;
-    background-color: #90323D;
+    background-color: #550C18;
     border-radius: 50px;
     font-size: 30px;
     text-align: center;
@@ -606,8 +605,10 @@ input[type=submit]{
 }
 
 .btn:hover {
+	animation: shadow-pulse 1s infinite;
+    cursor: pointer;
     transform: translateY(-3px);
-    background: #550C18;
+    background-color: #90323D;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
