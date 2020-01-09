@@ -497,7 +497,6 @@ header li a:hover {
     margin-bottom: 1.5%;
     outline: none;
     position: relative;
-    z-index: 1000;
 }
 .option-input:hover {
     background: #9faab7;
