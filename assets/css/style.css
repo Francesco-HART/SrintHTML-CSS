@@ -110,6 +110,7 @@ nav {
 }
 
 .button-gestion {
+	padding: 5px 10px 5px 10px;
 	color: white;
 	border-color: transparent;
     outline: none;
@@ -118,6 +119,7 @@ nav {
 }
 
 .button-management {
+	padding: 5px 10px 5px 10px;
 	color: white;
 	border-color: transparent;
     outline: none;
@@ -126,6 +128,7 @@ nav {
 }
 
 .button-informatique {
+	padding: 5px 10px 5px 10px;
 	color: white;
 	border-color: transparent;
     outline: none;
@@ -137,7 +140,6 @@ nav {
 	box-shadow: 3px 5px 5px black ;
     text-align: center;
     text-decoration: none;
-    padding: 6px 15px;
     display: inline-block;
     border-radius: 50px;
     border-color: transparent;
