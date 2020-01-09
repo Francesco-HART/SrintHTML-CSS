@@ -581,6 +581,7 @@ header li a:hover {
 }
 
 input[type=submit]{
+    margin-top: 2%;
     display: inline-block;
     width: 200px;
     height: 70px;
@@ -591,6 +592,7 @@ input[type=submit]{
     text-decoration: none;
     color : white;
     border : none;
+    text-decoration: none;
 }
 
 .btn:hover {
