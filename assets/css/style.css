@@ -203,7 +203,6 @@ header li a:hover {
 #seconddegreechoice {
 	background-color: black;
     color: white;
-    text-align: center;
     margin: 30px 0px 30px;
     padding: 20px;
 }
@@ -444,7 +443,7 @@ header li a:hover {
 }
 
 .fa-paper-plane:hover {
-    color: turquoise;
+    color: #0088cc;
 }
  
 .logoItescia{
@@ -599,6 +598,10 @@ input[type=submit]{
     transform: translateY(-3px);
     background: #550C18;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:focus {
+    outline:0;
 }
 
 /*DATE PICKER*/
