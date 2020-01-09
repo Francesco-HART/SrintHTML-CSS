@@ -108,10 +108,26 @@ nav {
     color: #90323D;
 }
 
-.button.submit {
-    position: center;
+.hugo {
+	color: white;
+	border-color: transparent;
+    outline:none;
+    background-color: #550C18;
 }
 
+.hugo:hover {
+	box-shadow: 0px 0px 20px black ;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 32px;
+    display: inline-block;
+    border-radius: 50px;
+    border-color: transparent;
+    outline:none;
+
+    cursor: pointer;
+}
 
 
         /* ---------- NAVBAR ---------- */
