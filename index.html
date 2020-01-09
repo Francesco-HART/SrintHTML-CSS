@@ -74,7 +74,7 @@
 					<h2 id="degreechoice">Votre 1er choix de formation</h2>
 					</div>
 					
-					<h3 id="gestiontitle"><a href="https://www.itescia.fr/formation-initiale/gestion">GESTION</a> </h3>
+					<h3 class="formation-title gestion-title"><a href="https://www.itescia.fr/formation-initiale/gestion">GESTION</a> </h3>
 					
 					<table class="degreetable">
 						<tr class="padding-top-top">
@@ -112,7 +112,7 @@
 					</table>
 
 
-				<h3 id="manatitle"> <a href="https://www.itescia.fr/formation-initiale/management">MANAGEMENT</a> </h3>
+				<h3 class="formation-title mana-title"> <a href="https://www.itescia.fr/formation-initiale/management">MANAGEMENT</a> </h3>
 				
 
 				<table class="degreetable">
@@ -149,7 +149,7 @@
 
 			<p>
 
-				<h3 id="ittitle"><a href="https://www.itescia.fr/formation-initiale/informatique-0">INFORMATIQUE</a></h3>
+				<h3 class="formation-title it-title"><a href="https://www.itescia.fr/formation-initiale/informatique-0">INFORMATIQUE</a></h3>
 				
 				<table class="degreetable">
 					<tr class="padding-top-top">
@@ -245,6 +245,7 @@
 						<td>
 							<input type="radio" class="option-input radio" name="firstchoice" id="CGFC">
 							<select>
+								<option selected disabled>Condition</option>
 								<option> VAE </option>
 								<option> Temps partiel </option>
 							</select>
@@ -255,6 +256,7 @@
 							<td>
 								<input type="radio" class="option-input radio" name="firstchoice" id="QHSEFC">
 								<select>
+									<option selected disabled>Condition</option>
 									<option> VAE </option>
 									<option> Temps partiel </option>
 								</select>
@@ -265,6 +267,7 @@
 								<td>
 									<input type="radio" class="option-input radio" name="firstchoice" id="M2IFC">
 									<select>
+										<option selected disabled>Condition</option>
 										<option> VAE </option>
 										<option> Temps partiel </option>
 									</select>
@@ -445,6 +448,7 @@
 		<button class="submit"><a href="#contact">SUBMIT</a></button>
 	</div>
 
+
 </form>
 
 
@@ -486,44 +490,39 @@
     </div>
 	<div class="contectLogo">
 		<ul id="containImg">
-			<li id="example">
-				
-					<i class="fa fa-facebook-square" style="font-size:30px" id="fb"></i>
-				
-			</li>
 			<li id="linkedin">
 				<a href="https://www.linkedin.com/in/francesco-hartemann-65893618a" target="_blank">
-					<img src="assets/images/linkedin.svg" alt="linkeding share"><!--linkedin-->
+					<i class="fa fa-linkedin-square" style="font-size:30px"></i>
 				</a>
 			</li><!--Linkedin-->
 
 			<li id="git">
 				<a href="https://github.com/Francesco-HART" target="_blank">
-					<img src="assets/images/github.svg" alt="git share"><!--git-->
+					<i class="fa fa-github" style="font-size:30px"></i>
 				</a>
 			</li><!--git-->
 
 			<li id="fb">
 				<a href="https://www.facebook.com/itescia/" target="_blank">
-					<img src="assets/images/facebook.svg" alt="Facebook share"><!--git-->
+					<i class="fa fa-facebook-square" style="font-size:30px"></i>
 				</a>
 			</li><!--Facebook-->
 
 			<li id="twitter">
 				<a href="https://twitter.com/ITESCIA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
 				   target="_blank">
-					<img src="assets/images/twitter.svg" alt="twitter share"><!--twitter-->
+					<i class="fa fa-twitter" style="font-size:30px"></i>
 				</a>
 			</li><!--twitter-->
 
 			<li id="youtube">
 				<a href="https://www.youtube.com/channel/UCAhB6gZz4lFwtbXqhzkyVDg" target="_blank">
-					<img src="assets/images/youtube.svg" alt="Youtube share">
+					<i class="fa fa-youtube-play" style="font-size:30px"></i>
 				</a>
 			</li><!--youtube-->
 			<li id="mail">
 				<a href="mailto:francesco.hartemann@edu.itescia.fr" target="_blank">
-					<img src="assets/images/minutemailer.svg" alt="Mail contact"><!--mail-->
+					<i class="fa fa-paper-plane" style="font-size:30px"></i>
 				</a>
 			</li><!--Mail-->
 		</ul>
