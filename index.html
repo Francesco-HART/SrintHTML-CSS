@@ -83,7 +83,7 @@
 							<td><label for="DCG">Diplôme de Comptabilité et de Gestion</label></td>
 							<td>
 								<input type="radio" class="option-input radio" name="firstchoice" id="DCG">
-							<select>
+							<select class="dropdown-content">
 								<option selected disabled>Niveau d'entrée</option>
 								<option value="L1">L1</option>
 								<option value="L2">L2</option>
@@ -94,7 +94,7 @@
 							<td><label for="LCG">Licence Contrôleur de Gestion</label></td>
 							<td>
 								<input type="radio" class="option-input radio" name="firstchoice" id="LCG">
-							<select>
+							<select class="dropdown-content">
 								<option selected disabled>Niveau d'entrée</option>
 								<option value="L3">L3</option>
 								<option value="M1">M1</option>
@@ -117,7 +117,7 @@
 						<td><label for="RSMQHSE">Responsable de systèmes de management QHSE</label></td>
 						<td>
 							<input type="radio" class="option-input radio" name="firstchoice" id="RSMQHSE">
-						<select>
+						<select class="dropdown-content">
 							<option selected disabled>Niveau d'entrée</option>
 							<option value="L3">L3</option>
 							<option value="M1">M1</option>
@@ -127,7 +127,7 @@
 						<td><label for="RRH">Responsable Ressources Humaines</label></td>
 						<td>
 							<input type="radio" class="option-input radio" name="firstchoice" id="RRH">
-						<select>
+						<select class="dropdown-content">
 							<option selected disabled>Niveau d'entrée</option>
 							<option value="L3">L3</option>
 							<option value="M1">M1</option>
@@ -153,7 +153,7 @@
 						<td><label for="SIO">BTS SIO</label></td>
 						<td>
 							<input type="radio" class="option-input radio" name="firstchoice" id="SIO">
-							<select style="width:110px;">
+							<select class="dropdown-content">
 								<option selected disabled>Option</option>
 								<option>Solutions d'infrastructure, systèmes et réseaux (SISR)</option>
 								<option>Solutions logicielles et applications métiers (SLAM)</option>
@@ -164,7 +164,7 @@
 						<td><label for="codeur">Codeur informatique</label></td>
 						<td>
 							<input type="radio" class="option-input radio" name="firstchoice" id="codeur">
-							<select style="width:110px;">
+							<select class="dropdown-content">
 								<option selected disabled>Localisation</option>
 								<option value="En 2 ans en alternance à Cergy">En 2 ans en alternance à Cergy</option> 
 								<option value="En 2 ans en alternance à Paris">En 2 ans en alternance à Paris</option> 
@@ -181,7 +181,7 @@
 						<td><label for="cdsmc">Concepteur développeur de solution mobiles <br> et connectées (Coding Factory)</label></td>
 						<td>
 							<input type="radio" class="option-input radio" name="firstchoice" id="cdsmc">
-							<select style="width:110px;">
+							<select class="dropdown-content">
 								<option selected disabled>Localisation</option>
 								<option value="En alternance à Cergy">En alternance à Cergy</option> 
 								<option value="En temps plein à Paris (payant)">En temps plein à Paris (payant)</option>
@@ -197,7 +197,7 @@
 						<td><label for="MIIM1">M2I - entrée en M1</label></td>
 						<td>
 							<input type="radio" class="option-input radio" name="firstchoice" id="MIIM1">
-							<select style="width:110px;">
+							<select class="dropdown-content">
 								<option selected disabled>Spécialité</option>
 								<option value="MSc Cybersécurité">MSc Cybersécurité</option> 
 								<option value="MSc Réseaux & Systèmes">MSc Réseaux & Systèmes</option>
@@ -213,7 +213,7 @@
 						<td><label for="M2">M2I - entrée en M2</label></td>
 						<td>
 							<input type="radio" class="option-input radio" name="firstchoice" id="M2">
-							<select style="width:110px;">
+							<select class="dropdown-content">
 								<option selected disabled>Spécialité</option>
 								<option value="MSc Entrepreneuriat & IT">MSc Entrepreneuriat & IT</option> 
 								<option value="MSc International Business for IT">MSc International Business for IT</option>
@@ -224,7 +224,7 @@
 						<td><label for="BAM1M2">Business Analyste - M1/M2</label></td>
 						<td>
 							<input type="radio" class="option-input radio" name="firstchoice" id="BAM1M2">
-							<select style="width:110px;">
+							<select class="dropdown-content">
 								<option selected disabled>Spécialité</option>
 								<option value="Performance et systèmes d’information">Performance et systèmes d’information</option> 
 								<option value="Digitisation RH">Digitisation RH</option>
@@ -240,7 +240,7 @@
 						<td><label for="CGFC">Contrôleur de gestion</label></td>
 						<td>
 							<input type="radio" class="option-input radio" name="firstchoice" id="CGFC">
-							<select>
+							<select class="dropdown-content">
 								<option selected disabled>Condition</option>
 								<option> VAE </option>
 								<option> Temps partiel </option>
@@ -251,7 +251,7 @@
 							<td><label for="QHSEFC">Responsable Management QHSE</label></td>
 							<td>
 								<input type="radio" class="option-input radio" name="firstchoice" id="QHSEFC">
-								<select>
+								<select class="dropdown-content">
 									<option selected disabled>Condition</option>
 									<option> VAE </option>
 									<option> Temps partiel </option>
@@ -262,7 +262,7 @@
 								<td><label for="M2IFC">Manager en Ingénierie Informatique (M2I)</label></td>
 								<td>
 									<input type="radio" class="option-input radio" name="firstchoice" id="M2IFC">
-									<select>
+									<select class="dropdown-content">
 										<option selected disabled>Condition</option>
 										<option> VAE </option>
 										<option> Temps partiel </option>
@@ -296,7 +296,7 @@
 					<label for="secondchoice">Votre deuxième choix : </label><br>
 					<input type="text" id="secondchoice"> <br/>
 					<label for="enterLvl1">Niveau d'entrée</label>
-					<select id="enterLvl1">
+					<select class="dropdown-content" id="enterLvl1">
 						<option value="L1">L1</option>
 						<option value="L2">L2</option>
 						<option value="L3">L3</option>
@@ -308,7 +308,7 @@
 					<label for="thirdchoice">Votre troisième choix :</label><br>
 					<input type="text" id="thirdchoice"> <br/>
 					<label for="enterLvl2">Niveau d'entrée</label>
-	        		<select id="enterLvl2">
+	        		<select class="dropdown-content" id="enterLvl2">
 						<option value="L1">L1</option>
 						<option value="L2">L2</option>
 						<option value="L3">L3</option>
@@ -425,7 +425,7 @@
 
 				<div class="info2">
 
-					<input class="option-input radio"type="radio" name="situation" id="salaried"> <label for="salaried">Salarié(e), </label> <label
+					<input class="option-input radio"type="radio" name="situation" id="salaried"> <label for="salaried">Salarié(e) </label> <label
 						for="business">de l'entreprise :</label> <input type="text" id="business"> <br/>
 					<input class="option-input radio"type="radio" name="situation" id="jobseeker"> <label for="jobseeker">Demandeur d'emploi</label> <br/>
 					<input class="option-input radio"type="radio" name="situation" id="particular"> <label for="particular">Particulier</label> <br/>
@@ -440,13 +440,7 @@
 
 	</div>
 
-	<div>
-		<button class="submit"><a href="#contact">SUBMIT</a></button>
-	</div>
-
-
 </form>
-
 
 	<!--Img for footer-->
 <div>
