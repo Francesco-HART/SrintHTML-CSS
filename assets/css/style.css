@@ -14,8 +14,7 @@ footer{
     background: #27282c;
     display: flex;
     margin-top: 0px ;
-    margin-bottom: 0px;
-
+    padding-bottom: 2%;
 }
 
 footer h6{
