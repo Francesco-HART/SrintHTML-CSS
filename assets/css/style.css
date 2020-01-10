@@ -187,7 +187,6 @@ nav ul{
 }
 
 nav ul li{
-    float: left;
     text-align: center;
     position: relative;
 }
@@ -244,7 +243,6 @@ nav > ul li:hover .sous{
     content:" ▼";
     font-size: 10px;
 }
-
 
 .white-nav{
     height: 2px;
@@ -479,9 +477,10 @@ nav > ul li:hover .sous{
     margin: 0px;
     padding: 0px;
     width: 100%;
+    font-size: 30px;
 }
 .contectLogo{
-    margin: 0px;!important;
+    margin: 0px !important;
     width: 30%;
 }
 
@@ -495,7 +494,7 @@ nav > ul li:hover .sous{
 .legal a{
     text-decoration: none;
     color: white;
-    margin-right: 10px;!important;
+    margin-right: 10px !important;
 
 }
 
