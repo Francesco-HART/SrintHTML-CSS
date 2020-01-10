@@ -179,6 +179,81 @@ header li a:hover {
   }
 
 
+nav ul{
+    list-style-type: none;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+nav ul li{
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: black;
+    border-bottom: 2px solid #90323D;
+}
+
+.sous{
+    text-align: center;
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: rgba(245,245,245, 0.5);
+    position: absolute;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    text-align: center;
+}
+
+.sous a{
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.2);
+}
+
+.deroulant{
+    padding: 0px;
+    margin: 0px;
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 10px;
+}
+
+
+.white-nav{
+    height: 2px;
+    background: black;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 75%;
+}
 
 /*
 .info {
@@ -400,20 +475,31 @@ header li a:hover {
     display: inline-block;
     margin: 5px;
 }
+#containImg{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.contectLogo{
+    margin: 0px;!important;
+    width: 30%;
+}
 
-.wt-offset-top-24 {
-    margin-left: 30px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+.legal {
+
+    margin: 24px 30px 0px 24px;
+  width: 60%;
     color: white;
 }
 
-.wt-offset-top-24 a{
+.legal a{
     text-decoration: none;
     color: white;
+    margin-right: 10px;!important;
+
 }
 
- footer .wt-offset-top-24 a:hover {  
+ footer .legal a:hover {
      color: #FFFFFF; 
      text-decoration: underline
     }
@@ -453,6 +539,7 @@ header li a:hover {
 .contectLogo {
    margin-left: 45%;
     margin-top: 10px;
+
 }
 
 /*-------------Radios Animated-------------*/
@@ -617,6 +704,9 @@ input[type=submit]{
     outline:0;
 }
 
+
+
+
 /*DATE PICKER*/
 .demo-non-form {
     color: initial;
@@ -640,85 +730,5 @@ input[type=submit]{
 
 input[type="text"],input[type="email"], input[type="tel"], input[type="text"] {
     font-size: 14px;
-}
-
-
-
-
-
-
-nav ul{
-    list-style-type: none;
-   padding-right: 0;
-    padding-left: 0;
-    margin-left: 0;
-}
-
-nav ul li{
-    float: left;
-    text-align: center;
-    position: relative;
-}
-
-nav ul::after{
-    content: "";
-    display: table;
-    clear: both;
-
-}
-
-nav a{
-    display: block;
-    text-decoration: none;
-    color: black;
-    border-bottom: 2px solid transparent;
-    padding: 10px 0px;
-}
-
-nav a:hover{
-    color: black;
-    border-bottom: 2px solid #90323D;
-}
-
-.sous{
-    text-align: center;
-    display: none;
-    box-shadow: 0px 1px 2px #CCC;
-    background-color: rgba(245,245,245, 0.5);
-    position: absolute;
-    z-index: 1000;
-}
-nav > ul li:hover .sous{
-    display: block;
-}
-.sous li{
-    float: none;
-    text-align: center;
-}
-.sous a{
-    border-bottom: none;
-}
-.sous a:hover{
-    border-bottom: none;
-    background-color: RGBa(200,200,200,0.2);
-}
-
-.deroulant{
-    padding: 0px;
-    margin: 0px;
-}
-.deroulant > a::after{
-    content:" ▼";
-    font-size: 10px;
-}
-
-
-.white-nav{
-    height: 2px;
-    background: black;
-    margin: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 75%;
 }
 
