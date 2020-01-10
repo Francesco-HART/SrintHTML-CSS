@@ -665,6 +665,9 @@ nav > ul li:hover .sous{
     .legal {
         width: 50%;
     }
+    nav{
+       padding-left: 0px !important;
+    }
     
 
 }
