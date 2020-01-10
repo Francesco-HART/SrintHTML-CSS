@@ -474,13 +474,15 @@ nav > ul li:hover .sous{
 }
 #containImg{
     margin: 0px;
-    padding: 0px;
     width: 100%;
     font-size: 30px;
+    
+    
 }
 .contectLogo{
-    margin: 0px !important;
+    margin: 5px !important;
     width: 30%;
+    text-align: right;
 }
 
 .legal {
@@ -700,8 +702,6 @@ input[type=submit]{
 .btn:focus {
     outline:0;
 }
-
-
 
 
 /*DATE PICKER*/
