@@ -84,7 +84,6 @@ nav {
     outline:none;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-
     cursor: pointer;
 }
 
@@ -407,7 +406,6 @@ header li a:hover {
     margin-top: 24px;
     margin-bottom: 24px;
     color: white;
-
 }
 
 .wt-offset-top-24 a{
@@ -420,7 +418,8 @@ header li a:hover {
      text-decoration: underline
     }
 
-.fa-facebook-square, .fa-linkedin-square, .fa-github, .fa-twitter, .fa-youtube-play, .fa-paper-plane {
+.fa-facebook-square, .fa-linkedin-square, .fa-github, 
+.fa-twitter, .fa-youtube-play, .fa-paper-plane, .fa-instagram{
     color: black;
 }
 .fa-facebook-square:hover {
@@ -431,7 +430,7 @@ header li a:hover {
     color: #007bb5;
 }
 
-.fa-github:hover{
+.fa-github:hover, .fa-instagram:hover {
     color: white;
 }
 
@@ -570,7 +569,9 @@ header li a:hover {
 	.pagegdroite:hover {
 		box-shadow: 0px 0px 20px gray ;
 		flex-basis: 97%;
-	}
+    }
+    
+    
 
 }
 
